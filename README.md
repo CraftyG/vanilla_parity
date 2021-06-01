@@ -1,7 +1,7 @@
 # Vanilla Parity (beta builds)
 this repo contains the up-to-date build for the Vanilla Parity Beta. They'll only work on the latest snapshot (unless specified), but know that snapshots are less stable than regular releases, so expect things to not work as intended.
 
-#### Current Beta Build: 15 (21w20a)
+#### Current Beta Build: 16 (1.17-pre2)
 ## Upcoming Parity Features
 - Raids work in the nether... technically.[[1]](https://minecraft.gamepedia.com/Raid#Raid_wave_spawning)
 - Stronghold loot is different.
