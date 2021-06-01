@@ -33,3 +33,6 @@ this repo contains the up-to-date build for the Vanilla Parity Beta. They'll onl
     - They can perform a charge attack when at low health.
 - Tridents enchanted with Loyalty will return to the player when thrown at the void.
 - Cocoa beans can be obtained by fishing in jungle biomes as a junk item.
+- Entering to the nether via a nether portal will now generate a netherrack platform if it's in an unsafe area.
+### Nether Portal Safety Sysytem
+- When a player enters to the nether via a nether portal, a marker will be summoned and check within a 3x4x7 area (underneath the center of where the player is standing and rotated accordingly from the direction of the nether portal itself) Each horizontal layer must consist of at least 10 of any block, but not more than 4 of either magma blocks or lava. These conditons are checked to determine if the nether portal the player is in a considered "safe" area. If the condition has been met for the top-most layer, the platform won't generate. If the conditions haven't been met for any of the layers, the platform will generate to where the portal has been located. **Note:** This method of detection will likely be changed in the future.
