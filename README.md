@@ -1,5 +1,5 @@
 # Vanilla Parity Repository
-this repo contains altewrnate versions for the Vanilla Parity Data Pack, including beta builds and the revoked version. The beta builds are experimental and less stable than the full release, so expect things to not work as intended. The Revoked Edition removes the extra Bedrock advancements that were in the original. This is so that you can enjoy your world with other data packs without the advancments cluttering everthing up. The Revoked Edition is linked to the latest original version.
+this repo contains alternate versions for the Vanilla Parity Data Pack, including beta builds and the revoked version. The beta builds are experimental and less stable than the full release, so expect things to not work as intended. The Revoked Edition removes the extra Bedrock advancements that were in the original. This is so that you can enjoy your world with other data packs without the advancments cluttering everthing up. The Revoked Edition is linked to the latest original version.
 
 #### Revoked Edition Version: 1.4.0
 #### Latest Beta Build: 17 (1.17-pre2)
@@ -38,4 +38,4 @@ this repo contains altewrnate versions for the Vanilla Parity Data Pack, includi
 ### Nether Portal Safety Sysytem
 - When a player enters to the nether via a nether portal, a marker will be summoned and check within a 3x4x7 area (underneath the center of where the player is standing and rotated accordingly from the direction of the nether portal itself) Each horizontal layer must consist of at least 10 of any block, but not more than 4 of either magma blocks or lava. These conditons are checked to determine if the nether portal the player is in a considered "safe" area. If the condition has been met for the top-most layer, the platform won't generate. If the conditions haven't been met for any of the layers, the platform will generate to where the portal has been located.
 
-*This data pack is made at which extraction is not required.*
+*The data packs made at which extraction is not required.*
