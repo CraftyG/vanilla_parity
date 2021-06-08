@@ -8,9 +8,7 @@ this repo contains alternate versions for the Vanilla Parity Data Pack, includin
 - Stronghold loot is different.
     - Altar chests can offer emeralds.
     - Storeroom chests can offer ink sacs.
-- Using bone meal on grass blocks can produce ferns.
-- While snowing, snow can stack together to form random patches.
-    - Credit goes to [Snowy++](https://www.planetminecraft.com/data-pack/snowy-4725382/) by [Francielly](https://www.planetminecraft.com/member/francielly/).
+- Using bone meal on grass blocks can produce ferns
 - Armor stands have arms when placed.
 - Feeding mobs make corresponfing food particles.
 - Villagers have a 10% chance to become a nitwit when grown into an adult.
