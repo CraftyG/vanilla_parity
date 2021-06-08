@@ -1,15 +1,14 @@
-# Vanilla Parity (beta builds)
-this repo contains the up-to-date build for the Vanilla Parity Beta. They'll only work on the latest snapshot (unless specified), but know that snapshots are less stable than regular releases, so expect things to not work as intended.
+# Vanilla Parity Repository
+this repo contains alternate versions for the Vanilla Parity Data Pack, including beta builds and the revoked version. The beta builds are experimental and less stable than the full release, so expect things to not work as intended. The Revoked Edition removes the extra Bedrock advancements that were in the original. This is so that you can enjoy your world with other data packs without the advancments cluttering everthing up. The Revoked Edition is linked to the latest original version.
 
-#### Current Beta Build: 17 (1.17-pre3)
-## Upcoming Parity Features
+#### Revoked Edition Version: 1.4.0
+#### Latest Beta Build: 17 (1.17-pre2)
+## 1.4.0 Changelog
 - Raids work in the nether... technically.[[1]](https://minecraft.gamepedia.com/Raid#Raid_wave_spawning)
 - Stronghold loot is different.
     - Altar chests can offer emeralds.
     - Storeroom chests can offer ink sacs.
-- Using bone meal on grass blocks can produce ferns.
-- While snowing, snow can stack together to form random patches.
-    - Credit goes to [Snowy++](https://www.planetminecraft.com/data-pack/snowy-4725382/) by [Francielly](https://www.planetminecraft.com/member/francielly/).
+- Using bone meal on grass blocks can produce ferns
 - Armor stands have arms when placed.
 - Feeding mobs make corresponfing food particles.
 - Villagers have a 10% chance to become a nitwit when grown into an adult.
@@ -35,6 +34,6 @@ this repo contains the up-to-date build for the Vanilla Parity Beta. They'll onl
 - Cocoa beans can be obtained by fishing in jungle biomes as a junk item.
 - Entering to the nether via a nether portal will now generate a netherrack platform if it's in an unsafe area.
 ### Nether Portal Safety Sysytem
-- When a player enters to the nether via a nether portal, a marker will be summoned and check within a 3x4x7 area (underneath the center of where the player is standing and rotated accordingly from the direction of the nether portal itself) Each horizontal layer must consist of at least 10 of any block, but not more than 4 of either magma blocks or lava. These conditons are checked to determine if the nether portal the player is in a considered "safe" area. If the condition has been met for the top-most layer, the platform won't generate. If the conditions haven't been met for any of the layers, the platform will generate to where the portal has been located. **Note:** This method of detection will likely be changed in the future.
+- When a player enters to the nether via a nether portal, a marker will be summoned and check within a 3x4x7 area (underneath the center of where the player is standing and rotated accordingly from the direction of the nether portal itself) Each horizontal layer must consist of at least 10 of any block, but not more than 4 of either magma blocks or lava. These conditons are checked to determine if the nether portal the player is in a considered "safe" area. If the condition has been met for the top-most layer, the platform won't generate. If the conditions haven't been met for any of the layers, the platform will generate to where the portal has been located.
 
-*This data pack is made at which extraction is not required.*
+*The data packs made at which extraction is not required.*
