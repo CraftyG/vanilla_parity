@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "vnla_prt:not_cyan_bed"
+        },
+        {
+            "item": "minecraft:cyan_dye"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cyan_bed",
+        "count": 1
+    },
+    "group": "bed_from_not"
+}
