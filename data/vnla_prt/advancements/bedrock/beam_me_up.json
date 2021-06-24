@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_pearl"
+    },
+    "title": "Beam Me Up",
+    "description": "Teleport over 100 meters from a single throw of an Ender Pearl",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "beam_me_up": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

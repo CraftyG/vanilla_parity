@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_hoe"
+    },
+    "title": "Bound Commitment",
+    "description": "Completely use up a diamond hoe, then reevaluate your life choices.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:husbandry/plant_seed",
+  "criteria": {
+    "break_diamond_hoe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": ["minecraft:diamond_hoe"]
+        }
+      }
+    }
+  }
+}

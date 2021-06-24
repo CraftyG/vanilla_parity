@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:drowned_spawn_egg"
+    },
+    "title": "Sleep with the Fishes",
+    "description": "Spend a day underwater",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "vnla_prt:legacy/free_diver",
+  "criteria": {
+    "inWater_score": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "vp.inWater": {
+                "min": 1200,
+                "max": 1300
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ocelot_spawn_egg"
+    },
+    "title": "Lion Hunter",
+    "description": "Gain the trust of an Ocelot",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "criteria": {
+    "trust_ocelot": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:fishes"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ocelot",
+              "nbt": "{Trusting:1b}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

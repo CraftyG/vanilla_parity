@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:grindstone"
+    },
+    "title": "Disenchanted",
+    "description": "Use a Grindstone to get experience from an enchanted item"
+  },
+  "parent": "minecraft:story/enchant_item",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "enchantments": [
+                      {}
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "nbt": "{HasBeenEnchanted:1b,RepairCost:0}"
+          }
+        ]
+      }
+    }
+  }
+}

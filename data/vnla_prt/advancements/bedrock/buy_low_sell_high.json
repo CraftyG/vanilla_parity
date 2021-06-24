@@ -1,0 +1,490 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": "Buy Low, Sell High",
+    "description": "Trade for the best possible price",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/trade",
+  "criteria": {
+    "chainmail_boots": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:chainmail_boots"]
+        }
+      }
+    },
+    "chainmail_helmet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:chainmail_helmet"]
+        }
+      }
+    },
+    "rabbit_stew": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:rabbit_stew"]
+        }
+      }
+    },
+    "cooked_porkchop": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cooked_porkchop"]
+        }
+      }
+    },
+    "cooked_chicken": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cooked_chicken"]
+        }
+      }
+    },
+    "redstone": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:redstone"]
+        }
+      }
+    },
+    "lapis_lazuli": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:lapis_lazuli"]
+        }
+      }
+    },
+    "bread": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:bread"]
+        }
+      }
+    },
+    "pumpkin_pie": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:pumpkin_pie"]
+        }
+      }
+    },
+    "apple": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:apple"]
+        }
+      }
+    },
+    "cake": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cake"]
+        }
+      }
+    },
+    "suspicious_stew": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:suspicious_stew"]
+        }
+      }
+    },
+    "cooked_cod": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cooked_cod"]
+        }
+      }
+    },
+    "cooked_salmon": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cooked_salmon"]
+        }
+      }
+    },
+    "arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:arrow"]
+        }
+      }
+    },
+    "flint": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:flint"]
+        }
+      }
+    },
+    "lantern": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:lantern"]
+        }
+      }
+    },
+    "glass": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:glass"]
+        }
+      }
+    },
+    "brick": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:brick"]
+        }
+      }
+    },
+    "chiseled_stone_bricks": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:chiseled_stone_bricks"]
+        }
+      }
+    },
+    "polished_diorite": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:polished_diorite"]
+        }
+      }
+    },
+    "polished_granite": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:polished_granite"]
+        }
+      }
+    },
+    "polished_andesite": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:polished_andesite"]
+        }
+      }
+    },
+    "dyed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:dyed_terracotta"
+        }
+      }
+    },
+    "glazed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:glazed_terracotta"
+        }
+      }
+    },
+    "quartz_pillar": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:quartz_pillar"]
+        }
+      }
+    },
+    "quartz_block": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:quartz_block"]
+        }
+      }
+    },
+    "wool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:wool"
+        }
+      }
+    },
+    "carpets": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:carpets"
+        }
+      }
+    },
+    "stone_axe": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:stone_axe"]
+        }
+      }
+    },
+    "stone_pickaxe": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:stone_pickaxe"]
+        }
+      }
+    },
+    "stone_shovel": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:stone_shovel"]
+        }
+      }
+    },
+    "stone_hoe": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:stone_hoe"]
+        }
+      }
+    },
+    "small_flowers": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:small_flowers"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "beetroot_seeds": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:beetroot_seeds"]
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "pumpkin_seeds": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:pumpkin_seeds"]
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "melon_seeds": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:melon_seeds"]
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "brown_mushroom": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:brown_mushroom"]
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "red_mushroom": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:red_mushroom"]
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "vine": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:vine"]
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "dyes": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:dyes"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "sand": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:sand"
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "sugar_cane": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:sugar_cane"]
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "lily_pad": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:lily_pad"]
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "pumpkin": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:pumpkin"]
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "gunpowder": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:gunpowder"]
+        },
+        "villager": {
+          "type": "wandering_trader"
+        }
+      }
+    },
+    "hero_of_the_village": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:hero_of_the_village": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "chainmail_boots",
+      "chainmail_helmet",
+      "rabbit_stew",
+      "cooked_porkchop",
+      "cooked_chicken",
+      "redstone",
+      "lapis_lazuli",
+      "bread",
+      "pumpkin_pie",
+      "apple",
+      "cake",
+      "suspicious_stew",
+      "cooked_cod",
+      "cooked_salmon",
+      "arrow",
+      "flint",
+      "lantern",
+      "glass",
+      "brick",
+      "chiseled_stone_bricks",
+      "polished_diorite",
+      "polished_granite",
+      "polished_andesite",
+      "dyed_terracotta",
+      "glazed_terracotta",
+      "quartz_pillar",
+      "quartz_block",
+      "wool",
+      "carpets",
+      "stone_axe",
+      "stone_pickaxe",
+      "stone_shovel",
+      "stone_hoe",
+      "small_flowers",
+      "beetroot_seeds",
+      "pumpkin_seeds",
+      "melon_seeds",
+      "brown_mushroom",
+      "red_mushroom",
+      "vine",
+      "dyes",
+      "sand",
+      "sugar_cane",
+      "lily_pad",
+      "pumpkin",
+      "gunpowder",
+      "hero_of_the_village"
+    ]
+  ]
+}
