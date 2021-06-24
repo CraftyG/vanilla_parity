@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "location": {
+      "block": {
+        "blocks": [
+          "minecraft:nether_portal"
+        ],
+        "state": {
+          "axis": "x"
+        }
+      }
+    }
+  }
+}

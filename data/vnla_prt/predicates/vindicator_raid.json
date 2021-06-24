@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:vindicator",
+      "nbt": "{Wave:0}"
+    }
+  }
+}
