@@ -1,0 +1,4 @@
+execute as @e[tag=vp.netherCheck,scores={vp.countLife=1..4}] at @s store result score @s vp.airCount run fill ^1 ^-1 ^3 ^-1 ^-1 ^-3 minecraft:barrel{Lock:"vp.air"} replace minecraft:air
+execute as @e[tag=vp.netherCheck,scores={vp.countLife=1..4}] at @s store result score @s vp.magmaCount run fill ^1 ^-1 ^3 ^-1 ^-1 ^-3 minecraft:barrel{Lock:"vp.magma"} replace minecraft:magma_block
+execute as @e[tag=vp.netherCheck,scores={vp.countLife=1..4}] at @s store result score @s vp.lavaCount run fill ^1 ^-1 ^3 ^-1 ^-1 ^-3 minecraft:barrel{Lock:"vp.lava"} replace minecraft:lava
+execute as @e[tag=vp.netherCheck] at @s run function vnla_prt:world/nether/safety_operation
