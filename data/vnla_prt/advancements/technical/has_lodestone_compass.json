@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "has_lodestone_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:compass",
+            "nbt": "{LodestoneTracked:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "vnla_prt:interactions/has_lodestone_compass"
+  }
+}

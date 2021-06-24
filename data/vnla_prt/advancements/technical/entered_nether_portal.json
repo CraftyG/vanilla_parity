@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "overworld_to_nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "minecraft:the_nether"
+      }
+    },
+    "nether_to_overworld": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:the_nether",
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "overworld_to_nether",
+      "nether_to_overworld"
+    ]
+  ],
+  "rewards": {
+    "function": "vnla_prt:world/nether/entered_portal"
+  }
+}

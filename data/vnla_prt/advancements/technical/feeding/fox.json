@@ -1,0 +1,48 @@
+{
+  "parent": "vnla_prt:technical/feeding_root",
+  "criteria": {
+    "sweet_berries": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:sweet_berries"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:fox"
+            }
+          }
+        ]
+      }
+    },
+    "glow_berries": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:glow_berries"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:fox"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sweet_berries",
+      "glow_berries"
+    ]
+  ],
+  "rewards": {
+    "function": "vnla_prt:interactions/fed_mob"
+  }
+}
