@@ -9,7 +9,7 @@ This repository contains alternate versions for the Vanilla Parity Data Pack, in
 ## 1.5.3
 - Fixed an issue with detecting enchanted items, adding `HasBeenEnchanted:1b` to all items, causing inventory space to clutter up.
 ## 1.5.2 Changelog
-- Drowned loot table has been changed to match **1.17.1-pre1**
+- Drowned loot table has been changed to match **1.17.1**
 ## 1.5.1 Changelog
 - Buried treasure explorer maps now have matching colored markings as to Bedrock Edition.
 ## 1.5.0 Changelog
