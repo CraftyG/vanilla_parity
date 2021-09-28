@@ -1,0 +1,58 @@
+{
+  "criteria": {
+    "wooden_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:wooden_axe"]
+          }
+        ]
+      }
+    },
+    "wooden_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:wooden_hoe"]
+          }
+        ]
+      }
+    },
+    "wooden_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:wooden_pickaxe"]
+          }
+        ]
+      }
+    },
+    "wooden_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:wooden_shovel"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wooden_shovel"
+    ],
+    [
+      "wooden_pickaxe"
+    ],
+    [
+      "wooden_hoe"
+    ],
+    [
+      "wooden_axe"
+    ]
+  ]
+}

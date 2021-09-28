@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sponge"
+    },
+    "title": "Dry Spell",
+    "description": "Dry a sponge in a furnace"
+  },
+  "parent": "vnla_prt:legacy/the_deep_end",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:sponge"]
+          }
+        ]
+      }
+    }
+  }
+}

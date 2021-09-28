@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "vnla_prt:not_black_bed"
+        },
+        {
+            "item": "minecraft:black_dye"
+        }
+    ],
+    "result": {
+        "item": "minecraft:black_bed",
+        "count": 1
+    },
+    "group": "bed_from_not"
+}

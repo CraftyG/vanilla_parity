@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_cod"
+    },
+    "title": "Delicious Fish",
+    "description": "Catch and cook a fish"
+  },
+  "parent": "minecraft:husbandry/fishy_business",
+  "criteria": {
+    "cooked_cod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:cooked_cod"]
+          }
+        ]
+      }
+    },
+    "cooked_salmon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:cooked_salmon"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cooked_salmon",
+      "cooked_cod"
+    ]
+  ]
+}

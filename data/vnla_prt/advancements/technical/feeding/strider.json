@@ -1,0 +1,25 @@
+{
+  "parent": "vnla_prt:technical/feeding_root",
+  "criteria": {
+    "fed_strider": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:warped_fungus"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:strider"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "vnla_prt:interactions/fed_mob"
+  }
+}

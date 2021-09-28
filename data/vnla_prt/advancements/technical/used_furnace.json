@@ -1,0 +1,44 @@
+{
+  "criteria": {
+    "furnace": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": ["minecraft:furnace"]
+          }
+        }
+      }
+    },
+    "blast_furnace": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": ["minecraft:blast_furnace"]
+          }
+        }
+      }
+    },
+    "smoker": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": ["minecraft:smoker"]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "smoker",
+      "blast_furnace",
+      "furnace"
+    ]
+  ],
+  "rewards": {
+    "function": "vnla_prt:interactions/used_furnace"
+  }
+}

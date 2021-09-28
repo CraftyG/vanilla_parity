@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": "The Haggler",
+    "description": "Acquire 30 Emeralds",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/trade",
+  "criteria": {
+    "haggler": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:emerald"],
+            "count": {
+              "min": 30
+            }
+          }
+        ]
+      }
+    }
+  }
+}

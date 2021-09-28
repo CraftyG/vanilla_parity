@@ -1,0 +1,10 @@
+[
+  {
+    "condition": "minecraft:random_chance",
+    "chance": 0.00187
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "vnla_prt:wither_half_health"
+  }
+]

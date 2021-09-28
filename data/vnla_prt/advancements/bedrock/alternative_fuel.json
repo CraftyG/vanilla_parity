@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dried_kelp_block"
+    },
+    "title": "Alternative Fuel",
+    "description": "Craft a dried kelp block",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/plant_seed",
+  "criteria": {
+    "dried_kelp_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:dried_kelp_block"]
+          }
+        ]
+      }
+    }
+  }
+}

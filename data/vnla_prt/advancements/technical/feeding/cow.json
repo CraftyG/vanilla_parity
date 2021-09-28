@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "fed_cow": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:wheat"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cow"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "vnla_prt:interactions/fed_mob"
+  },
+  "parent": "vnla_prt:technical/feeding_root"
+}

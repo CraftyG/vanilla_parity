@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vnla_prt:white_bed_from_dyed"
+      }
+    },
+    "dyed_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "vnla_prt:dyed_beds"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "dyed_bed"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vnla_prt:white_bed_from_dyed"
+    ]
+  }
+}

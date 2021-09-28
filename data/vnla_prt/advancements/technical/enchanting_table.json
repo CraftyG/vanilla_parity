@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "enchanting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:enchanting_table"]
+          }
+        ]
+      }
+    }
+  }
+}
