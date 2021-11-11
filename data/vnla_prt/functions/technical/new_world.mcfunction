@@ -22,8 +22,6 @@ scoreboard objectives add vp.minecart minecraft.custom:minecraft.minecart_one_cm
 scoreboard objectives add vp.mapRoom dummy
 # Ecolocation
 scoreboard objectives add vp.echolocation dummy
-# Trampoline
-scoreboard objectives add vp.trampoline minecraft.custom:minecraft.fall_one_cm
 # Master Trader
 scoreboard objectives add vp.emerald minecraft.crafted:minecraft.emerald
 scoreboard objectives add vp.tradedEmerald dummy
