@@ -1,14 +1,19 @@
 #> Advancement functions
-# passing the time
+# Passing the time
 scoreboard players add @a vp.playTime 1
-# echolocation
+# Echolocation
 function vnla_prt:advancements/echolocation_check
-# 'deep dive' and 'sleeping with the fishes'
+# "Deep Dive" and "Sleeping with the Fishes"
 function vnla_prt:technical/under_water
 # castaway
 function vnla_prt:advancements/castaway_check
-# so i got that going for me
+# So I Got That Going for Me
 function vnla_prt:advancements/llama_caravan
+# Disenchanted
+execute as @a at @s run function vnla_prt:advancements/disenchanted_item
+# Map Room
+function vnla_prt:advancements/map_room
+
 # zombie mob jockeys
 function vnla_prt:world/chance_to_mount
 function vnla_prt:world/jockey_target_vehicle
