@@ -1,5 +1,3 @@
-# Trampoline
-function vnla_prt:advancements/trampoline
 # Super Sonic
 function vnla_prt:advancements/super_sonic
 # Beam Me Up
