@@ -1,0 +1,58 @@
+{
+  "criteria": {
+    "golden_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:golden_axe"]
+          }
+        ]
+      }
+    },
+    "golden_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:golden_hoe"]
+          }
+        ]
+      }
+    },
+    "golden_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:golden_pickaxe"]
+          }
+        ]
+      }
+    },
+    "golden_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:golden_shovel"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "golden_shovel"
+    ],
+    [
+      "golden_pickaxe"
+    ],
+    [
+      "golden_hoe"
+    ],
+    [
+      "golden_axe"
+    ]
+  ]
+}

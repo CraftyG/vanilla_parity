@@ -1,0 +1,102 @@
+{
+  "parent": "vnla_prt:technical/feeding_root",
+  "criteria": {
+    "wheat_seeds": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:wheat_seeds"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:parrot"
+            }
+          }
+        ]
+      }
+    },
+    "melon_seeds": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:melon_seeds"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:parrot"
+            }
+          }
+        ]
+      }
+    },
+    "pumpkin_seeds": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:pumpkin_seeds"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:parrot"
+            }
+          }
+        ]
+      }
+    },
+    "beetroot_seeds": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:beetroot_seeds"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:parrot"
+            }
+          }
+        ]
+      }
+    },
+    "cookie": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cookie"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:parrot"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wheat_seeds",
+      "pumpkin_seeds",
+      "melon_seeds",
+      "beetroot_seeds",
+      "cookie"
+    ]
+  ],
+  "rewards": {
+    "function": "vnla_prt:interactions/fed_mob"
+  }
+}
