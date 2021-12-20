@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:filled_map"
+    },
+    "title": "Treasure Hunter",
+    "description": "Acquire a map from a cartographer villager, then enter the revealed structure",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/trade",
+  "criteria": {
+    "ocean_monument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{SelectedItem:{id:\"minecraft:filled_map\",Count:1b,tag:{display:{Name:'{\"translate\":\"filled_map.monument\"}'}}}}"
+            }
+          }
+        ],
+        "location": {
+          "feature": "monument"
+        }
+      }
+    },
+    "woodland_mansion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{SelectedItem:{id:\"minecraft:filled_map\",Count:1b,tag:{display:{Name:'{\"translate\":\"filled_map.mansion\"}'}}}}"
+            }
+          }
+        ],
+        "location": {
+          "feature": "mansion"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "woodland_mansion",
+      "ocean_monument"
+    ]
+  ]
+}

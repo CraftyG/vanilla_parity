@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rail"
+    },
+    "title": "On A Rail",
+    "description": "Travel by minecart to a point at least 500m",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/smelt_iron",
+  "criteria": {
+    "on_a_rail": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "vp.minecart": {
+                "min": 50000
+              }
+            }
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "vnla_prt:in_minecart"
+          }
+        ]
+      }
+    }
+  }
+}

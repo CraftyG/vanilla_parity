@@ -1,0 +1,134 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_axe"
+    },
+    "title": "MOAR Tools",
+    "description": "Construct one type of each tool",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/upgrade_tools",
+  "criteria": {
+    "wooden_tools": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "vnla_prt:technical/moar_wooden_tools": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stone_tools": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "vnla_prt:technical/moar_stone_tools": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "iron_tools": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "vnla_prt:technical/moar_iron_tools": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "golden_tools": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "vnla_prt:technical/moar_golden_tools": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "diamond_tools": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "vnla_prt:technical/moar_diamond_tools": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_tools": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "vnla_prt:technical/moar_netherite_tools": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "netherite_tools",
+      "diamond_tools",
+      "golden_tools",
+      "iron_tools",
+      "stone_tools",
+      "wooden_tools"
+    ]
+  ]
+}

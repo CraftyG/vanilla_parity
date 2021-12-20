@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_rabbit"
+    },
+    "title": "Rabbit Season",
+    "description": "Cook and eat rabbit meat",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "vnla_prt:legacy/pork_chop",
+  "criteria": {
+    "cooked_rabbit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cooked_rabbit"]
+        }
+      }
+    }
+  }
+}
