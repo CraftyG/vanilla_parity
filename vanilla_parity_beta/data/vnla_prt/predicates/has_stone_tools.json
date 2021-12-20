@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "player": {
+      "gamemode": "survival",
+      "advancements": {
+        "minecraft:story/root": true
+      }
+    }
+  }
+}
