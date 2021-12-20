@@ -1,0 +1,2 @@
+# checks if there is an enderman at a 100 block distance... not very optimized
+execute as @a at @s if entity @e[type=minecraft:ender_pearl,distance=100..,limit=1] run advancement grant @s only vnla_prt:bedrock/beam_me_up
