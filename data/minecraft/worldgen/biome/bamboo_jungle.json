@@ -1,15 +1,13 @@
 {
-  "temperature": 2,
-  "downfall": 0,
-  "precipitation": "none",
-  "category": "mesa",
+  "temperature": 0.95,
+  "downfall": 0.9,
+  "precipitation": "rain",
+  "category": "jungle",
   "effects": {
-    "sky_color": 7254527,
+    "sky_color": 7842047,
     "fog_color": 12638463,
-    "water_color": 5144449,
-    "water_fog_color": 1651252,
-    "grass_color": 9470285,
-    "foliage_color": 10387789,
+    "water_color": 1352389,
+    "water_fog_color": 16464,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
@@ -66,9 +64,58 @@
         "weight": 5,
         "minCount": 1,
         "maxCount": 1
+      },
+      {
+        "type": "minecraft:ocelot",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
-    "creature": [],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:parrot",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:panda",
+        "weight": 80,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
     "ambient": [
       {
         "type": "minecraft:bat",
@@ -139,7 +186,6 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:ore_gold_extra",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
@@ -151,13 +197,16 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_grass_badlands",
-      "minecraft:patch_dead_bush_badlands",
+      "minecraft:bamboo",
+      "minecraft:bamboo_vegetation",
+      "minecraft:flower_warm",
+      "minecraft:patch_grass_jungle",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane_badlands",
+      "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:patch_cactus_decorated"
+      "minecraft:vines",
+      "minecraft:patch_melon"
     ],
     [
       "minecraft:freeze_top_layer"
