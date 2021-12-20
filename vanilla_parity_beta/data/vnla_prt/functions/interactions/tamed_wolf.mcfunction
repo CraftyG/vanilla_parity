@@ -1,0 +1,1 @@
+tag @e[type=wolf,limit=1,sort=nearest,tag=!vp.tamed] add vp.tamed

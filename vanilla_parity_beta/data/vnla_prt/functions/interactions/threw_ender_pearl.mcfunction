@@ -1,0 +1,3 @@
+execute as @a at @s if entity @e[type=ender_pearl,distance=..2] run tag @e[type=ender_pearl,distance=..3] add vp.thrownEnderPearl
+execute as @e[tag=vp.thrownEnderPearl] at @s run summon area_effect_cloud ~ ~ ~ {Duration:2,Tags:["vp.enderPearlCheck"]}
+execute as @e[tag=vp.enderPearlCheck] at @s unless entity @e[type=ender_pearl,distance=..4] run playsound minecraft:item.chorus_fruit.teleport master @a ~ ~ ~
