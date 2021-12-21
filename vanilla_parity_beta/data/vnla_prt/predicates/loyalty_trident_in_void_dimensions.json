@@ -1,0 +1,42 @@
+[
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:trident",
+          "nbt": "{Trident:{tag:{Enchantments:[{id:\"minecraft:loyalty\"}]}}}",
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:trident",
+          "nbt": "{Trident:{tag:{Enchantments:[{id:\"minecraft:loyalty\"}]}}}",
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "y": {
+            "min": 0
+          }
+        }
+      }
+    }
+  }
+]

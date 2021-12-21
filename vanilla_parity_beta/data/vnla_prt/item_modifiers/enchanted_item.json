@@ -1,0 +1,15 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{HasBeenEnchanted:1b}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Inventory:[{tag:{Enchantments:[{}]}}]}"
+        }
+      }
+    ]
+  }
+]

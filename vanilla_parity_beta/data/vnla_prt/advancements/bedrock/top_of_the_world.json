@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:scaffolding"
+    },
+    "title": "Top of the World",
+    "description": "Build scaffolding to the world limit"
+  },
+  "parent": "vnla_prt:bedrock/zoologist",
+  "criteria": {
+    "scaffolding_world_limit": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:scaffolding",
+        "location": {
+          "position": {
+            "y": 319
+          }
+        }
+      }
+    }
+  }
+}
