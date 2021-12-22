@@ -25,4 +25,3 @@ This repository contains alternate versions for the Vanilla Parity Data Pack, in
   - Teleporting with ender pearls make teleportation sounds.
   - Cave vines will always yield a glow berry using a tool with Silk Touch, even if the vine appears empty.
   - As of 1.18 the ability to configure structures has been removed due to MC-241288. This means that villages and pillager outposts will no longer generate in the additional biomes within the data pack, until it's been addressed and fixed in future.
-*The data packs made at which extraction is not required.*
