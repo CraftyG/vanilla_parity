@@ -1,20 +1,20 @@
 # Vanilla Parity Repository
 ![Minecraft - 1.18.1](https://img.shields.io/badge/Minecraft-1.18.1-7AB357)
-[![Version - 1.5.3](https://img.shields.io/badge/Version-1.6.0-3366FF)](https://github.com/CraftyG/vanilla_parity/wiki)
+[![Version - 1.6.0](https://img.shields.io/badge/Version-1.6.0-3366FF)](https://github.com/CraftyG/vanilla_parity/wiki)
 [![Revoked Ver. - 1.6.0](https://img.shields.io/badge/Revoked_Ver.-1.6.0-ee7722)](https://github.com/CraftyG/vanilla_parity/wiki)
 
 This repository contains alternate versions for the Vanilla Parity Data Pack, including beta builds and the revoked version. The beta builds are experimental and less stable than the full release, so expect things to not work as intended. The Revoked Edition removes the extra Bedrock advancements that were in the original. This is so that you can enjoy your world with other data packs without the advancments being in the way. The Revoked Edition is linked to the latest original version. For the original version of the pack, see [Vanilla Parity [1.18]](https://www.planetminecraft.com/data-pack/vanilla-parity/).
 #### Revoked Edition Version: 1.6.0
 
-# 1.6.0 Changelog
-- Some advancements have been reworked:
+ # 1.6.0 Changelog
+  - Some advancements have been reworked:
     - "Trampoline" now uses the fall_from_height advancement trigger, thus vp.trampoline is now removed.
     - "Buy Low Sell High" now only requires to be under the Hero of the Village effect.
     - "Map Room" originally required to place a map onto an item frame 9 times. Now it requires 9 item frames within range to have maps in them, and they can work with glow item frames.
-- Playing "otherside" in a jukebox will play note particles.
-- Updated detection for tridents enchanted with Loyalty thrown into the void.
- - Updated buried trasure and stronghold alter chest loot to be match up latest release
- - Some biomes now have differing tints of water. Here's a list of biomes with their respective tints.
+  - Playing "otherside" in a jukebox will play note particles.
+  - Updated detection for tridents enchanted with Loyalty thrown into the void.
+  - Updated buried trasure and stronghold alter chest loot to be match up latest release 
+  - Some biomes now have differing tints of water. Here's a list of biomes with their respective tints.
     - Desert: Keppel
     - Badlands, Savannas and their variants: Wintergreen Dream
     - Mushroom Fields: Manatee
