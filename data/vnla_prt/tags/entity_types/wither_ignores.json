@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#vnla_prt:undead",
+    "#vnla_prt:not_mobs",
+    "minecraft:ghast"
+  ]
+}

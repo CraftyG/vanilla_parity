@@ -1,0 +1,68 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:air"
+        ]
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "offsetX": 1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:air"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:air"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:air"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:air"
+          ]
+        }
+      }
+    }
+  }
+]

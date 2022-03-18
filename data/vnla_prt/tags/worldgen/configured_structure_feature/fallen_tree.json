@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "vnla_prt:fallen_tree_forest",
+    "vnla_prt:fallen_tree_taiga",
+    "vnla_prt:fallen_tree_windswept_forest",
+    "vnla_prt:fallen_tree_birch_forest",
+    "vnla_prt:fallen_tree_jungle"
+  ]
+}
