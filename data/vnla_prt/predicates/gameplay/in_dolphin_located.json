@@ -1,0 +1,29 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "feature": "minecraft:shipwreck"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "feature": "minecraft:shipwreck_beached"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "feature": "minecraft:ocean_ruin_cold"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "feature": "minecraft:ocean_ruin_warm"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:villager",
+    "nbt": "{Tags:[\"vp.villagerChild\"]}",
+    "flags": {
+      "is_baby": false
+    }
+  }
+}

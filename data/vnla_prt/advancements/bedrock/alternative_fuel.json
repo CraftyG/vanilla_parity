@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dried_kelp_block"
+    },
+    "title": "Alternative Fuel",
+    "description": "Power a furnace with a dried kelp block"
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cut_copper"
+    },
+    "title": "Whatever the Weather",
+    "description": "Apply and remove wax from all the copper blocks!!!",
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "minecraft:husbandry/wax_off",
+  "criteria": {
+    "wax_copper_block": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:copper_block"
+            ]
+          }
+        }
+      }
+    },
+    "wax_exposed_copper": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:exposed_copper"
+            ]
+          }
+        }
+      }
+    },
+    "wax_weathered_copper": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:weathered_copper"
+            ]
+          }
+        }
+      }
+    },
+    "wax_oxidized_copper": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:oxidized_copper"
+            ]
+          }
+        }
+      }
+    },
+    "wax_cut_copper": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:cut_copper"
+            ]
+          }
+        }
+      }
+    },
+    "wax_exposed_cut_copper": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:exposed_cut_copper"
+            ]
+          }
+        }
+      }
+    },
+    "wax_weathered_cut_copper": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:weathered_cut_copper"
+            ]
+          }
+        }
+      }
+    },
+    "wax_oxidized_cut_copper": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:oxidized_cut_copper"
+            ]
+          }
+        }
+      }
+    },
+    "wax_cut_copper_slab": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:cut_copper_slab"
+            ]
+          }
+        }
+      }
+    },
+    "wax_exposed_cut_copper_slab": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:exposed_cut_copper_slab"
+            ]
+          }
+        }
+      }
+    },
+    "wax_weathered_cut_copper_slab": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:weathered_cut_copper_slab"
+            ]
+          }
+        }
+      }
+    },
+    "wax_oxidized_cut_copper_slab": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:oxidized_cut_copper_slab"
+            ]
+          }
+        }
+      }
+    },
+    "wax_cut_copper_stairs": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:cut_copper_stairs"
+            ]
+          }
+        }
+      }
+    },
+    "wax_exposed_cut_copper_stairs": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:exposed_cut_copper_stairs"
+            ]
+          }
+        }
+      }
+    },
+    "wax_weathered_cut_copper_stairs": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:weathered_cut_copper_stairs"
+            ]
+          }
+        }
+      }
+    },
+    "wax_oxidized_cut_copper_stairs": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:oxidized_cut_copper_stairs"
+            ]
+          }
+        }
+      }
+    },
+    "scrape_waxed_copper_block": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:axes"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:waxed_copper_block"
+            ]
+          }
+        }
+      }
+    },
+    "scrape_waxed_exposed_copper": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:axes"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:waxed_exposed_copper"
+            ]
+          }
+        }
+      }
+    },
+    "scrape_waxed_weathered_copper": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:axes"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:waxed_weathered_copper"
+            ]
+          }
+        }
+      }
+    },
+    "scrape_waxed_oxidized_copper": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:axes"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:waxed_oxidized_copper"
+            ]
+          }
+        }
+      }
+    },
+    "scrape_waxed_cut_copper": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:axes"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:waxed_cut_copper"
+            ]
+          }
+        }
+      }
+    },
+    "scrape_waxed_exposed_cut_copper": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:axes"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:waxed_exposed_cut_copper"
+            ]
+          }
+        }
+      }
+    },
+    "scrape_waxed_weathered_cut_copper": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:axes"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:waxed_weathered_cut_copper"
+            ]
+          }
+        }
+      }
+    },
+    "scrape_waxed_oxidized_cut_copper": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:axes"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:waxed_oxidized_cut_copper"
+            ]
+          }
+        }
+      }
+    },
+    "scrape_waxed_cut_copper_slab": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:axes"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:waxed_cut_copper_slab"
+            ]
+          }
+        }
+      }
+    },
+    "scrape_waxed_exposed_cut_copper_slab": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:axes"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:waxed_exposed_cut_copper_slab"
+            ]
+          }
+        }
+      }
+    },
+    "scrape_waxed_weathered_cut_copper_slab": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:axes"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:waxed_weathered_cut_copper_slab"
+            ]
+          }
+        }
+      }
+    },
+    "scrape_waxed_oxidized_cut_copper_slab": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:axes"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:waxed_oxidized_cut_copper_slab"
+            ]
+          }
+        }
+      }
+    },
+    "scrape_waxed_cut_copper_stairs": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:axes"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:waxed_cut_copper_stairs"
+            ]
+          }
+        }
+      }
+    },
+    "scrape_waxed_exposed_cut_copper_stairs": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:axes"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:waxed_exposed_cut_copper_stairs"
+            ]
+          }
+        }
+      }
+    },
+    "scrape_waxed_weathered_cut_copper_stairs": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:axes"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:waxed_weathered_cut_copper_stairs"
+            ]
+          }
+        }
+      }
+    },
+    "scrape_waxed_oxidized_cut_copper_stairs": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "vnla_prt:axes"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:waxed_oxidized_cut_copper_stairs"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 250
+  }
+}

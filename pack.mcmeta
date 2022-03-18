@@ -1,0 +1,10 @@
+{
+	"pack": {
+		"pack_format": 9,
+		"description": [
+		{"text":"Vanila Parity ","color":"#E1DCD7"},
+		{"text":"Beta","color":"yellow"},
+		{"text":"\n By: CraftyGamer_","color":"blue"}
+		]
+	}
+}

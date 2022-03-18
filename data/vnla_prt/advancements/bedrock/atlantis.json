@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:filled_map",
+      "nbt": "{display:{MapColor:6904238}}"
+    },
+    "title": "Atlantis?",
+    "description": "Find an underwater ruin"
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "ocean_ruin_warm": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "minecraft:ocean_ruin_warm"
+        }
+      }
+    },
+    "ocean_ruin_cold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "minecraft:ocean_ruin_cold"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ocean_ruin_warm",
+      "ocean_ruin_cold"
+    ]
+  ]
+}

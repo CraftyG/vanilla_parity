@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dried_kelp"
+    },
+    "title": "Castaway",
+    "description": "Eat nothing but dried kelp for three in-game days",
+    "frame": "challenge"
+  },
+  "parent": "vnla_prt:bedrock/alternative_fuel",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "vp.castaway": {
+                "min": 3600
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

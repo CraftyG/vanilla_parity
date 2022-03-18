@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:charcoal"
+    },
+    "title": "Renewable Energy",
+    "description": "Smelt some logs using charcoal to make more charcoal"
+  },
+  "parent": "vnla_prt:legacy/hot_topic",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

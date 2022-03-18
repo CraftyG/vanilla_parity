@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:grindstone"
+    },
+    "title": "Disenchanted",
+    "description": "Use a Grindstone to get experience from an enchanted item"
+  },
+  "parent": "minecraft:story/enchant_item",
+  "criteria": {
+    "disenchanted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

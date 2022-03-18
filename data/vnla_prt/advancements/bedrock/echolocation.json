@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:salmon"
+    },
+    "title": "Echolocation",
+    "description": "Feed a dolphin fish to have it lead you to treasure"
+  },
+  "parent": "minecraft:husbandry/fishy_business",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:shulker_box"
+    },
+    "title": "Organizational Wizard",
+    "description": "Rename a shulker box with an anvil"
+  },
+  "parent": "minecraft:end/find_end_city",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "vnla_prt:shulker_boxes",
+            "nbt": "{display:{}}"
+          }
+        ]
+      }
+    }
+  }
+}

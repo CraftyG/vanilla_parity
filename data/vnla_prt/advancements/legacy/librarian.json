@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bookshelf"
+    },
+    "title": "Librarian",
+    "description": "Build some bookshelves to improve your enchanting table"
+  },
+  "parent": "minecraft:story/enchant_item",
+  "criteria": {
+    "place_bookshelf": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "vnla_prt:gameplay/enchanting_table": true
+                }
+              }
+            }
+          }
+        ],
+        "block": "minecraft:bookshelf"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_hoe"
+    },
+    "title": "Bound Commitments",
+    "description": "Completely use up a diamond hoe, and then reevaluate your life choices again.",
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "minecraft:husbandry/obtain_netherite_hoe",
+  "criteria": {
+    "break_diamond_hoe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": [
+            "minecraft:diamond_hoe"
+          ]
+        }
+      }
+    }
+  }
+}

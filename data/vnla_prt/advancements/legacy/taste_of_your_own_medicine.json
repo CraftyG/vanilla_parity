@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:poison\"}"
+    },
+    "title": "Taste of Your Own Medicine",
+    "description": "Poison a witch with a splash potion"
+  },
+  "parent": "minecraft:nether/brew_potion",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

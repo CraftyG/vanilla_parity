@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bell"
+    },
+    "title": "Sound the Alarm!",
+    "description": "Ring the bell with a raider in the village",
+    "hidden": true
+  },
+  "parent": "vnla_prt:bedrock/were_being_attacked",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:leather"
+    },
+    "title": "Cow Tipper",
+    "description": "Harvest some leather"
+  },
+  "parent": "vnla_prt:legacy/time_to_strike",
+  "criteria": {
+    "get_leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

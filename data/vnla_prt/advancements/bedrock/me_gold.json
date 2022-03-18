@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "title": "Me Gold",
+    "description": "Dig up some buried treasure"
+  },
+  "parent": "vnla_prt:bedrock/ahoy",
+  "criteria": {
+    "buried_treasure": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/buried_treasure"
+      }
+    }
+  }
+}

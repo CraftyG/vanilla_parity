@@ -1,0 +1,2 @@
+execute if entity @e[tag=vp.hasCharcoal,distance=..8,predicate=vnla_prt:gameplay/in_lit_furnace] run advancement grant @s only vnla_prt:legacy/renewable_energy
+advancement revoke @s only vnla_prt:gameplay/get_charcoal

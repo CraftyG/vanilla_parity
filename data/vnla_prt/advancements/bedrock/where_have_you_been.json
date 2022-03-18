@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:string"
+    },
+    "title": "Where Have You Been?",
+    "description": "Receive a gift from a tamed cat in the morning"
+  },
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

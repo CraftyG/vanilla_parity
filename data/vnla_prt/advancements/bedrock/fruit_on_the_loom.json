@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mojang_banner_pattern"
+    },
+    "title": "Fruit on the Loom",
+    "description": "Make a pattern using an Enchanted Golden Apple Stencil",
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "vnla_prt:legacy/overpowered",
+  "criteria": {
+    "mojang_pattern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:banners",
+            "nbt": "{BlockEntityTag:{Patterns:[{Pattern:\"moj\"}]}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

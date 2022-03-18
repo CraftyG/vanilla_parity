@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "vnla_prt:gameplay/narrow_space_x"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "vnla_prt:gameplay/narrow_space_y"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "vnla_prt:gameplay/narrow_space_z"
+    }
+  ]
+}

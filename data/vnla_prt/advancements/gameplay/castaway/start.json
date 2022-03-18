@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:dried_kelp"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vnla_prt:gameplay/castaway/start"
+  }
+}

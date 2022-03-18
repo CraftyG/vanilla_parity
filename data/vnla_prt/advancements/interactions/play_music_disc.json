@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "play_jukebox": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:music_discs"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:jukebox"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vnla_prt:interactions/jukebox/start_ray"
+  }
+}

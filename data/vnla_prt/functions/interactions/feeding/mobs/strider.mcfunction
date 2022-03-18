@@ -1,0 +1,1 @@
+execute if entity @p[advancements={vnla_prt:interactions/feeding/strider=true}] run particle minecraft:item minecraft:warped_fungus ~ ~0.5 ~ 0.2 0.2 0.2 0.2 7

@@ -1,0 +1,30 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "position": {
+        "y": {
+          "min": 153,
+          "max": 168
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biome": "minecraft:taiga"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biome": "minecraft:old_growth_spruce_taiga"
+        }
+      }
+    ]
+  }
+]

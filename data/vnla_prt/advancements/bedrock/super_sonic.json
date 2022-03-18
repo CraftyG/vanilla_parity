@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:firework_rocket"
+    },
+    "title": "Super Sonic",
+    "description": "Use Elytra to fly through a 1 by 1 gap while moving faster than 40 m/s",
+    "frame": "challenge"
+  },
+  "parent": "minecraft:end/elytra",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "vp.speed": {
+                "min": 350
+              }
+            }
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "vnla_prt:gameplay/in_narrow_space"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}
