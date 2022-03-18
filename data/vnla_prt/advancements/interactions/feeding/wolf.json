@@ -1,0 +1,229 @@
+{
+  "parent": "vnla_prt:interactions/feeding/root",
+  "criteria": {
+    "bone": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bone"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wolf"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"vp.isTamed\"]}"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "beef": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:beef"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vnla_prt:entity/wolf_not_healthy_nor_in_love"
+          }
+        ]
+      }
+    },
+    "chicken": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chicken"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vnla_prt:entity/wolf_not_healthy_nor_in_love"
+          }
+        ]
+      }
+    },
+    "mutton": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mutton"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vnla_prt:entity/wolf_not_healthy_nor_in_love"
+          }
+        ]
+      }
+    },
+    "porkchop": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:porkchop"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vnla_prt:entity/wolf_not_healthy_nor_in_love"
+          }
+        ]
+      }
+    },
+    "rabbit": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rabbit"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vnla_prt:entity/wolf_not_healthy_nor_in_love"
+          }
+        ]
+      }
+    },
+    "rotten_flesh": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rotten_flesh"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vnla_prt:entity/wolf_not_healthy_nor_in_love"
+          }
+        ]
+      }
+    },
+    "cooked_beef": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_beef"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vnla_prt:entity/wolf_not_healthy_nor_in_love"
+          }
+        ]
+      }
+    },
+    "cooked_chicken": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_chicken"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vnla_prt:entity/wolf_not_healthy_nor_in_love"
+          }
+        ]
+      }
+    },
+    "cooked_mutton": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_mutton"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vnla_prt:entity/wolf_not_healthy_nor_in_love"
+          }
+        ]
+      }
+    },
+    "cooked_porkchop": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_porkchop"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vnla_prt:entity/wolf_not_healthy_nor_in_love"
+          }
+        ]
+      }
+    },
+    "cooked_rabbit": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_rabbit"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:reference",
+            "name": "vnla_prt:entity/wolf_not_healthy_nor_in_love"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bone",
+      "beef",
+      "chicken",
+      "mutton",
+      "porkchop",
+      "rabbit",
+      "rotten_flesh",
+      "cooked_beef",
+      "cooked_chicken",
+      "cooked_mutton",
+      "cooked_porkchop",
+      "cooked_rabbit"
+    ]
+  ],
+  "rewards": {
+    "function": "vnla_prt:interactions/feeding/start_ray"
+  }
+}

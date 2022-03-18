@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 170
+            },
+            "period": 24000
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "minecraft:rabbit_foot",
+              "minecraft:rabbit_hide",
+              "minecraft:string",
+              "minecraft:rotten_flesh",
+              "minecraft:feather",
+              "minecraft:chicken",
+              "minecraft:phantom_membrane"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "vnla_prt:gameplay/morning_gift"
+  }
+}

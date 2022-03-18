@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "bone_meal_grass_block": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bone_meal"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:grass_block"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vnla_prt:interactions/bone_meal/start_ray"
+  }
+}

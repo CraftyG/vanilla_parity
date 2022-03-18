@@ -1,0 +1,48 @@
+{
+  "parent": "vnla_prt:interactions/feeding/root",
+  "criteria": {
+    "wheat": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:wheat"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:trader_llama"
+            }
+          }
+        ]
+      }
+    },
+    "hay_block": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:hay_block"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:trader_llama"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wheat",
+      "hay_block"
+    ]
+  ],
+  "rewards": {
+    "function": "vnla_prt:interactions/feeding/start_ray"
+  }
+}

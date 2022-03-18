@@ -1,0 +1,48 @@
+{
+  "parent": "vnla_prt:interactions/feeding/root",
+  "criteria": {
+    "cod": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cod"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cat"
+            }
+          }
+        ]
+      }
+    },
+    "salmon": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:salmon"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cat"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cod",
+      "salmon"
+    ]
+  ],
+  "rewards": {
+    "function": "vnla_prt:interactions/feeding/start_ray"
+  }
+}

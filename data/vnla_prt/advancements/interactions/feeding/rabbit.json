@@ -1,0 +1,66 @@
+{
+  "criteria": {
+    "carrot": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:carrot"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:rabbit"
+            }
+          }
+        ]
+      }
+    },
+    "golden_carrot": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:golden_carrot"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:rabbit"
+            }
+          }
+        ]
+      }
+    },
+    "dandelion": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:dandelion"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:rabbit"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "carrot",
+      "golden_carrot",
+      "dandelion"
+    ]
+  ],
+  "rewards": {
+    "function": "vnla_prt:interactions/feeding/start_ray"
+  },
+  "parent": "vnla_prt:interactions/feeding/root"
+}

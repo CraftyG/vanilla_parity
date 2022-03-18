@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "furnace": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:furnace",
+              "minecraft:blast_furnace",
+              "minecraft:smoker"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vnla_prt:gameplay/furnace/start_ray"
+  }
+}

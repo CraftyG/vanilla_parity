@@ -1,0 +1,25 @@
+{
+  "parent": "vnla_prt:interactions/feeding/root",
+  "criteria": {
+    "fed_strider": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:seagrass"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:turtle"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "vnla_prt:interactions/feeding/start_ray"
+  }
+}

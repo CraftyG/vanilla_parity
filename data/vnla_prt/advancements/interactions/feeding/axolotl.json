@@ -1,0 +1,25 @@
+{
+  "parent": "vnla_prt:interactions/feeding/root",
+  "criteria": {
+    "tropical_fish_bucket": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:tropical_fish_bucket"]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:axolotl"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "vnla_prt:interactions/feeding/start_ray"
+  }
+}
