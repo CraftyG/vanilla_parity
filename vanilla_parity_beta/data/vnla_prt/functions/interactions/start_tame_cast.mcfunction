@@ -1,1 +1,0 @@
-execute as @p at @s positioned ~ ~1.5 ~ if block ~ ~ ~ air run function vnla_prt:interactions/tame_cast

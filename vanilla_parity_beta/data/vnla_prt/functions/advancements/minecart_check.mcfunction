@@ -1,1 +1,0 @@
-execute as @a at @s unless predicate vnla_prt:in_minecart run scoreboard players set @s vp.minecart 0
