@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bamboo",
+          "functions": [
+            {
+              "function": "minecraft:looting_enchant",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

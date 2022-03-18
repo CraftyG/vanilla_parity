@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crafting_table"
+    },
+    "title": "Benchmaking",
+    "description": "Craft a Crafting Table with four blocks of wooden planks"
+  },
+  "parent": "vnla_prt:legacy/getting_wood",
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crafting_table"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

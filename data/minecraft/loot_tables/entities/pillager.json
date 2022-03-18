@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "minecraft:looting_enchant",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "vnla_prt:entities/raider_drops",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "vnla_prt:entity/illager_raider"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
