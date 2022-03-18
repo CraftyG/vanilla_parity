@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_sign"
+    },
+    "title": "It's a Sign!",
+    "description": "Craft and place an oak sign"
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "oak_sign": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:oak_sign"
+      }
+    },
+    "oak_wall_sign": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:oak_wall_sign"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "oak_sign",
+      "oak_wall_sign"
+    ]
+  ]
+}

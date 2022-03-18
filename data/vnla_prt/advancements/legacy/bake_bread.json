@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bread"
+    },
+    "title": "Bake Bread",
+    "description": "Turn wheat into bread"
+  },
+  "parent": "minecraft:husbandry/plant_seed",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bread"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

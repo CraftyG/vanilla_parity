@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sea_pickle"
+    },
+    "title": "Pickles on the Sea Floor",
+    "description": "Place four sea pickles in a group"
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "four_pickles": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:sea_pickle",
+        "state": {
+          "pickles": "4"
+        }
+      }
+    }
+  }
+}

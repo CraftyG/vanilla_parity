@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:jukebox"
+    },
+    "title": "Music to my Ears",
+    "description": "Play a music disc in a jukebox"
+  },
+  "parent": "vnla_prt:legacy/archer",
+  "criteria": {
+    "play_jukebox": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:music_discs"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:jukebox"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

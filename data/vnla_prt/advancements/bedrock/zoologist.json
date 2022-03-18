@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bamboo"
+    },
+    "title": "Zoologist",
+    "description": "Breed two pandas with bamboo"
+  },
+  "parent": "minecraft:husbandry/breed_an_animal",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:panda"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

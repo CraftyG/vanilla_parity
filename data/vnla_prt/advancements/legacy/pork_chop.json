@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "title": "Pork Chop",
+    "description": "Cook and eat a porkchop"
+  },
+  "parent": "vnla_prt:legacy/hot_topic",
+  "criteria": {
+    "shear_sheep": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_porkchop"
+          ]
+        }
+      }
+    }
+  }
+}

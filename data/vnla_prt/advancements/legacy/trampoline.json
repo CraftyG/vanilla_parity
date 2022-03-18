@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:slime_block"
+    },
+    "title": "Trampoline",
+    "description": "Bounce 30 blocks upward off a slime block"
+  },
+  "parent": "minecraft:adventure/honey_block_slide",
+  "criteria": {
+    "trampoline": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:slime_block"
+                  ]
+                }
+              },
+              "flags": {
+                "is_sneaking": false
+              }
+            }
+          }
+        ],
+        "distance": {
+          "y": {
+            "min": 90
+          }
+        }
+      }
+    }
+  }
+}

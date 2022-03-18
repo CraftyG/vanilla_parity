@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:conduit"
+    },
+    "title": "Moskstraumen",
+    "description": "Activate a conduit",
+    "frame": "goal"
+  },
+  "parent": "vnla_prt:bedrock/me_gold",
+  "criteria": {
+    "conduit_power": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:conduit_power": {}
+        }
+      }
+    }
+  }
+}

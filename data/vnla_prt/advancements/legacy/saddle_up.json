@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:apple"
+    },
+    "title": "Saddle Up",
+    "description": "Tame a horse"
+  },
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "criteria": {
+    "tame_horse": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:horse"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

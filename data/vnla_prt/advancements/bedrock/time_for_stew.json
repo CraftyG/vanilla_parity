@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:suspicious_stew"
+    },
+    "title": "Time for Stew",
+    "description": "Give someone a suspicious stew"
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:suspicious_stew"
+          ]
+        }
+      }
+    }
+  }
+}

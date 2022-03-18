@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "title": "Overpowered!",
+    "description": "Eat an enchanted golden apple",
+    "frame": "challenge"
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_golden_apple"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

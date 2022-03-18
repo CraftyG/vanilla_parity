@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cake"
+    },
+    "title": "The Lie",
+    "description": "Bake a cake using: wheat, sugar, milk, and eggs",
+    "frame": "goal"
+  },
+  "parent": "vnla_prt:legacy/bake_bread",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cake"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

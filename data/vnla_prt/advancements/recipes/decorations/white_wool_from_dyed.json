@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vnla_prt:white_wool_from_dyed_wool"
+      }
+    },
+    "has_dyed_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "vnla_prt:dyed_wool"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dyed_wool",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vnla_prt:white_wool_from_dyed_wool"
+    ]
+  }
+}

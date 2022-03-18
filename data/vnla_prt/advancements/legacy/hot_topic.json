@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace"
+    },
+    "title": "Hot Topic",
+    "description": "Construct a furnace out of eight cobblestone"
+  },
+  "parent": "minecraft:story/mine_stone",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:furnace"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

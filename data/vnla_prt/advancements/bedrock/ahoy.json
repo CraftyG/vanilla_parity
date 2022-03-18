@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "title": "Ahoy!",
+    "description": "Find a shipwreck"
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "shipwreck": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "minecraft:shipwreck"
+        }
+      }
+    },
+    "shipwreck_beached": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "minecraft:shipwreck_beached"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "shipwreck",
+      "shipwreck_beached"
+    ]
+  ]
+}

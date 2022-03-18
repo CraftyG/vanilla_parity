@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_bed"
+    },
+    "title": "A Change of Sheets",
+    "description": "Dye your bed to a different color"
+  },
+  "parent": "minecraft:adventure/sleep_in_bed",
+  "criteria": {
+    "dyed_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "vnla_prt:dyed_beds"
+          }
+        ]
+      }
+    }
+  }
+}

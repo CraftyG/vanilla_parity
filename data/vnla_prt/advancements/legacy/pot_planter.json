@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:flower_pot"
+    },
+    "title": "Pot Planter",
+    "description": "Craft and place a flower pot"
+  },
+  "parent": "vnla_prt:legacy/hot_topic",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:flower_pot"
+      }
+    }
+  }
+}

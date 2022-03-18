@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": "Buy Low, Sell High",
+    "description": "Trade for the Best possible price"
+  },
+  "parent": "minecraft:adventure/trade",
+  "criteria": {
+    "cured_villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Gossips:[{Type:\"major_positive\"}]}"
+        }
+      }
+    },
+    "hero_of_the_village": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:hero_of_the_village": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cured_villager",
+      "hero_of_the_village"
+    ]
+  ]
+}

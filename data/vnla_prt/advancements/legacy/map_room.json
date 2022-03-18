@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:item_frame"
+    },
+    "title": "Map Room",
+    "description": "Place nine fully explored maps into 9 item frames",
+    "frame": "goal"
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "vp.mapRoom": {
+                "min": 9
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

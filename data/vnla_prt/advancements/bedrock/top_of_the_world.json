@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:scaffolding"
+    },
+    "title": "Top of the World",
+    "description": "Place scaffolding to the world limit"
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:scaffolding",
+        "location": {
+          "position": {
+            "y": 319
+          }
+        }
+      }
+    }
+  }
+}

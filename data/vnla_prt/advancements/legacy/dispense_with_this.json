@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dispenser"
+    },
+    "title": "Dispense with This",
+    "description": "Construct a dispenser"
+  },
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dispenser"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

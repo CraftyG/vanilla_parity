@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_hoe"
+    },
+    "title": "Time to Farm!",
+    "description": "Make a Hoe"
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "vnla_prt:hoes"
+          }
+        ]
+      }
+    }
+  }
+}

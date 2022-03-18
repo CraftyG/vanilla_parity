@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_axe"
+    },
+    "title": "Feeling Ill",
+    "description": "Defeat an Evoker"
+  },
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "evoker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:evoker"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
