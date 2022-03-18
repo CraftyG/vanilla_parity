@@ -1,0 +1,7 @@
+As of making this data pack, Snowy++, made by Francielly, has not yet been 
+updated to 1.18. However changes had to be made to the data pack in order to 
+comply with the new overworld generation Although I have been given 
+permission to use the data pack in Vanilla Parity, I have not recieved any 
+information on when they will update.This not meant to be done with 
+ill-intent, as she will still be credited for making the original data pack.
+Hope you all understand.
