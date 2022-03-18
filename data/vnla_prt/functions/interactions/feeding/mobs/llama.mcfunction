@@ -1,0 +1,2 @@
+execute if entity @p[advancements={vnla_prt:interactions/feeding/llama={wheat=true}}] run particle minecraft:item minecraft:wheat ~ ~0.5 ~ 0.1 0.1 0.1 0.2 7
+execute if entity @p[advancements={vnla_prt:interactions/feeding/llama={hay_block=true}}] run particle minecraft:item minecraft:hay_block ~ ~0.5 ~ 0.1 0.1 0.1 0.2 7
