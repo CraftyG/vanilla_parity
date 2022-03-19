@@ -1,0 +1,44 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "player": {
+          "advancements": {
+            "vnla_prt:interactions/feeding/rabbit": {
+              "carrot": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "player": {
+          "advancements": {
+            "vnla_prt:interactions/feeding/rabbit": {
+              "golden_carrot": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "player": {
+          "advancements": {
+            "vnla_prt:interactions/feeding/rabbit": {
+              "dandelion": true
+            }
+          }
+        }
+      }
+    }
+  ]
+}
