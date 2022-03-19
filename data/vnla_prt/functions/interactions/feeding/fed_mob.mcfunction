@@ -26,3 +26,4 @@ execute if entity @e[type=strider] run function vnla_prt:interactions/feeding/mo
 execute if entity @e[type=trader_llama] run function vnla_prt:interactions/feeding/mobs/trader_llama
 execute if entity @e[type=turtle] run function vnla_prt:interactions/feeding/mobs/turtle
 execute if entity @s[type=wolf,nbt=!{Health:20.0f}] run function vnla_prt:interactions/feeding/mobs/wolf
+advancement revoke @p from vnla_prt:interactions/feeding/root
