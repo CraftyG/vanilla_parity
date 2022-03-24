@@ -1,0 +1,15 @@
+{
+  "name": "vnla_prt:fallen_trees/logs/spruce",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "vnla_prt:fallen_tree/spruce/spruce_logs",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "vnla_prt:fallen_trees/logs/oak",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "vnla_prt:fallen_tree/oak/oak_logs",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

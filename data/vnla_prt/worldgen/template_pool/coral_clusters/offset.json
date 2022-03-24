@@ -1,0 +1,25 @@
+{
+    "name":"vnla_prt:coral_clusters/offset",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "vnla_prt:coral_cluster/offset_1",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "vnla_prt:coral_cluster/offset_2",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  
