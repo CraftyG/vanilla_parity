@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "vnla_prt:fallen_tree_forest",
+      "weight": 1
+    },
+    {
+      "structure": "vnla_prt:fallen_tree_windswept_forest",
+      "weight": 1
+    },
+    {
+      "structure": "vnla_prt:fallen_tree_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "vnla_prt:fallen_tree_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "vnla_prt:fallen_tree_birch_forest",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 1,
+    "salt": 14357921
+  }
+}

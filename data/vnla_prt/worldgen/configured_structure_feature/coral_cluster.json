@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:bastion_remnant",
+  "biomes": "minecraft:warm_ocean",
+  "adapt_noise": false,
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "vnla_prt:coral_clusters/offset",
+    "size": 1
+  }
+}
+  

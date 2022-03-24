@@ -1,0 +1,24 @@
+{
+  "name": "vnla_prt:fallen_trees/forest",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "vnla_prt:fallen_tree/oak/oak_stump",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "vnla_prt:fallen_tree/birch/birch_stump",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

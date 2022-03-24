@@ -5,7 +5,7 @@
 	# jukebox is empty
 execute as @e[tag=vp.musicDisc] at @s unless block ~ ~ ~ minecraft:jukebox{RecordItem:{}} run kill @s
 	# music disc is finished
-execute as @e[tag=vp.musicDisc] at @s if score @s vp.musicDiscTime matches 0 run kill @s
+execute as @e[tag=vp.musicDisc] at @s if score @s vp.musicDiscTimer matches 0 run kill @s
 
 #> play note depending on music disc
 	# red note

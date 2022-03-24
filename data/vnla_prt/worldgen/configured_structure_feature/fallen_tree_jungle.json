@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:village",
+  "biomes": "#vnla_prt:has_structure/fallen_tree_jungle",
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "vnla_prt:fallen_trees/jungle",
+    "size": 2
+  }
+}

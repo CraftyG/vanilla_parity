@@ -1,0 +1,15 @@
+{
+  "name": "vnla_prt:fallen_trees/windswept_forest",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "vnla_prt:fallen_tree/spruce/spruce_stump",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+    "name":"vnla_prt:coral_clusters/structures",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "vnla_prt:coral_cluster/cluster_1",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "vnla_prt:coral_cluster/cluster_2"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "vnla_prt:coral_cluster/cluster_3"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "vnla_prt:coral_cluster/cluster_4",
+            "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "vnla_prt:coral_cluster/cluster_5",
+            "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  
