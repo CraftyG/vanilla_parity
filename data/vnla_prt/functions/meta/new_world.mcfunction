@@ -6,6 +6,6 @@ tellraw @p {"text":" "}
 tellraw @p [{"text": "Made by: "},{"text": "CraftyGamer_","color": "blue"}]
 tellraw @p {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
 
-tellraw @p {"text": "Ver. 2.0.1 Release Candidate 1","color": "gray"}
+tellraw @p {"text": "Ver. 2.0.1","color": "gray"}
 
 function vnla_prt:meta/one_second_timer
