@@ -3,6 +3,7 @@ summon marker ~ ~ ~ {Tags:["vp.musicDisc"]}
 # align position to jukebox
 execute as @e[tag=vp.musicDisc] at @s align xyz run tp ~ ~ ~
 # set scoreboard depending on the disc inside
+execute as @e[tag=vp.musicDisc] at @s if block ~ ~ ~ minecraft:jukebox{RecordItem:{id:"minecraft:music_disc_5"}} run scoreboard players set @s vp.musicDiscTimer 178
 execute as @e[tag=vp.musicDisc] at @s if block ~ ~ ~ minecraft:jukebox{RecordItem:{id:"minecraft:music_disc_11"}} run scoreboard players set @s vp.musicDiscTimer 71
 execute as @e[tag=vp.musicDisc] at @s if block ~ ~ ~ minecraft:jukebox{RecordItem:{id:"minecraft:music_disc_13"}} run scoreboard players set @s vp.musicDiscTimer 178
 execute as @e[tag=vp.musicDisc] at @s if block ~ ~ ~ minecraft:jukebox{RecordItem:{id:"minecraft:music_disc_blocks"}} run scoreboard players set @s vp.musicDiscTimer 345
