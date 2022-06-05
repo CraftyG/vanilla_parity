@@ -16,7 +16,8 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "advancements": {
                   "vnla_prt:gameplay/moar_tools/wooden_tools": true
                 }
@@ -34,7 +35,8 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "advancements": {
                   "vnla_prt:gameplay/moar_tools/stone_tools": true
                 }
@@ -52,7 +54,8 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "advancements": {
                   "vnla_prt:gameplay/moar_tools/iron_tools": true
                 }
@@ -70,7 +73,8 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "advancements": {
                   "vnla_prt:gameplay/moar_tools/golden_tools": true
                 }
@@ -88,7 +92,8 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "advancements": {
                   "vnla_prt:gameplay/moar_tools/diamond_tools": true
                 }
@@ -106,7 +111,8 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "advancements": {
                   "vnla_prt:gameplay/moar_tools/netherite_tools": true
                 }
