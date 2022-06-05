@@ -32,6 +32,8 @@ scoreboard objectives add vp.inWater dummy
 # Super Sonic
 scoreboard objectives add vp.elytraTravelDistance minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add vp.speed dummy
+# Super Fuel and Alternative Fuel
+scoreboard objectives add vp.smeltTime dummy
 
 #> Scores for other features
 # raycast (used as a boolean and distance limit)
