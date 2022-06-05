@@ -1,5 +1,5 @@
 # make wither temporarily invulnerable so it doesn't get damaged from explosions
-execute if score @s vp.witherDash matches 1..9 run data merge entity @s {Invulnerable:1b}
+execute if score @s vp.witherDash matches 1..9 run data modify entity @s Invulnerable set value 1
 # dash duration score
 scoreboard players remove @s vp.witherDash 1
 # the explosion
