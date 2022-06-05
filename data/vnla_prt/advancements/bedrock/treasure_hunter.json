@@ -19,13 +19,20 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{SelectedItem:{id:\"minecraft:filled_map\",Count:1b,tag:{display:{Name:'{\"translate\":\"filled_map.monument\"}'}}}}"
+              "location": {
+                "structure": "minecraft:monument"
+              },
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:filled_map"
+                  ],
+                  "nbt": "{display:{Name:'{\"translate\":\"filled_map.monument\"}'}}"
+                }
+              }
             }
           }
-        ],
-        "location": {
-          "feature": "monument"
-        }
+        ]
       }
     },
     "woodland_mansion": {
@@ -36,13 +43,20 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{SelectedItem:{id:\"minecraft:filled_map\",Count:1b,tag:{display:{Name:'{\"translate\":\"filled_map.mansion\"}'}}}}"
+              "location": {
+                "structure": "minecraft:mansion"
+              },
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:filled_map"
+                  ],
+                  "nbt": "{display:{Name:'{\"translate\":\"filled_map.mansion\"}'}}"
+                }
+              }
             }
           }
-        ],
-        "location": {
-          "feature": "mansion"
-        }
+        ]
       }
     }
   },
