@@ -1,0 +1,15 @@
+{
+  "feature": "minecraft:warm_ocean_vegetation",
+  "placement": [
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_to_count_ratio": 20,
+      "noise_factor": 400,
+      "noise_offset": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    }
+  ]
+}
