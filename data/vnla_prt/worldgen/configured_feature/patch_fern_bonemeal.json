@@ -2,7 +2,7 @@
   "type": "minecraft:random_patch",
   "config": {
     "tries": 10,
-    "xz_spread": 7,
+    "xz_spread": 4,
     "y_spread": 3,
     "feature": {
       "feature": {

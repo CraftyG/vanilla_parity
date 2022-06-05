@@ -1,6 +1,9 @@
 
 #> This function is called by a tick function
 
+# once the wither is almomst ready, set the health to 600
+execute if entity @s[predicate=vnla_prt:entity/wither_almost_ready] run attribute @s generic.max_health base set 600
+execute if entity @s[predicate=vnla_prt:entity/wither_almost_ready] run data modify entity @s Health set value 600
 # get score value from wither's current health
 execute store result score @s vp.witherHealth run data get entity @s Health
 #> At half health

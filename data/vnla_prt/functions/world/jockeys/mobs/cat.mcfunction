@@ -15,7 +15,7 @@ execute as @e[tag=vp.jockeyPassenger] at @s run data modify entity @s Rotation s
 execute as @e[tag=vp.jockeyPassenger] at @s run data modify entity @s VillagerData set from entity @e[tag=vp.canBeJockey,limit=1,sort=nearest] VillagerData
 
 # cat vehicle
-execute as @e[tag=vp.jockeyVehicle] at @s run data modify entity @s CatType set from entity @e[tag=vp.jockeyHost,limit=1,sort=nearest] CatType
+execute as @e[tag=vp.jockeyVehicle] at @s run data modify entity @s variant set from entity @e[tag=vp.jockeyHost,limit=1,sort=nearest] variant
 execute as @e[tag=vp.jockeyVehicle] at @s run data modify entity @s Rotation set from entity @e[tag=vp.jockeyHost,limit=1,sort=nearest] Rotation
 
 # send them to the shadow realm

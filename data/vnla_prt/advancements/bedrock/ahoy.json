@@ -11,17 +11,27 @@
     "shipwreck": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "feature": "minecraft:shipwreck"
-        }
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "minecraft:shipwreck"
+            }
+          }
+        ]
       }
     },
     "shipwreck_beached": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "feature": "minecraft:shipwreck_beached"
-        }
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "minecraft:shipwreck_beached"
+            }
+          }
+        ]
       }
     }
   },

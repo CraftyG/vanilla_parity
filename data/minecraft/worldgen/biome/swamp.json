@@ -2,7 +2,6 @@
     "temperature": 0.8,
     "downfall": 0.9,
     "precipitation": "rain",
-    "category": "swamp",
     "effects": {
       "sky_color": 7907327,
       "fog_color": 12638463,
@@ -98,6 +97,12 @@
           "weight": 8,
           "minCount": 4,
           "maxCount": 4
+        },
+        {
+          "type": "minecraft:frog",
+          "weight": 10,
+          "minCount": 2,
+          "maxCount": 5 
         }
       ],
       "ambient": [

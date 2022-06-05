@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "minecraft:stronghold",
+      "weight": 1
+    },
+    {
+      "structure": "vnla_prt:nothing",
+      "weight": 29
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387312,
+    "spacing": 34,
+    "separation": 8
+  }
+}

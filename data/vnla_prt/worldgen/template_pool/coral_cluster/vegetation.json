@@ -1,0 +1,29 @@
+{
+  "name": "vnla_prt:coral_cluster/vegetation",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "projection": "rigid",
+        "feature": "vnla_prt:jigsaw_warm_ocean_vegetation"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "projection": "rigid",
+        "feature": "vnla_prt:jigsaw_sea_pickle"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

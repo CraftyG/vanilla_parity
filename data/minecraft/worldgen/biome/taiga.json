@@ -2,7 +2,6 @@
   "temperature": 0.25,
   "downfall": 0.8,
   "precipitation": "rain",
-  "category": "taiga",
   "effects": {
     "sky_color": 8233983,
     "fog_color": 12638463,

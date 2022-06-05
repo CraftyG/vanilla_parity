@@ -1,0 +1,87 @@
+{
+  "name": "vnla_prt:coral_cluster/starts",
+  "fallback": "vnla_prt:coral_above_sea_level",
+  "elements": [
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "vnla_prt:coral_cluster/outcropping_1",
+        "processors": "vnla_prt:coral_above_sea_level"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "vnla_prt:coral_cluster/outcropping_2",
+        "processors": "vnla_prt:coral_above_sea_level"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "vnla_prt:coral_cluster/outcropping_3",
+        "processors": "vnla_prt:coral_above_sea_level"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "vnla_prt:coral_cluster/outcropping_4",
+        "processors": "vnla_prt:coral_above_sea_level"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "vnla_prt:coral_cluster/crust_1",
+        "processors": "vnla_prt:coral_above_sea_level"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "vnla_prt:coral_cluster/crust_2",
+        "processors": "vnla_prt:coral_above_sea_level"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "vnla_prt:coral_cluster/crust_3",
+        "processors": "vnla_prt:coral_above_sea_level"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "vnla_prt:coral_cluster/crust_4",
+        "processors": "vnla_prt:coral_above_sea_level"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "vnla_prt:coral_cluster/crust_5",
+        "processors": "vnla_prt:coral_above_sea_level"
+      }
+    }
+  ]
+}

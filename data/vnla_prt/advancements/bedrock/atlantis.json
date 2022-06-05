@@ -12,17 +12,27 @@
     "ocean_ruin_warm": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "feature": "minecraft:ocean_ruin_warm"
-        }
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "minecraft:ocean_ruin_warm"
+            }
+          }
+        ]
       }
     },
     "ocean_ruin_cold": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "feature": "minecraft:ocean_ruin_cold"
-        }
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "minecraft:ocean_ruin_cold"
+            }
+          }
+        ]
       }
     }
   },

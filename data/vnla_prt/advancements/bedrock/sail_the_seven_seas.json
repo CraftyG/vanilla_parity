@@ -12,73 +12,118 @@
     "frozen_ocean": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "biome": "minecraft:frozen_ocean"
-        }
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "minecraft:frozen_ocean"
+            }
+          }
+        ]
       }
     },
     "deep_frozen_ocean": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "biome": "minecraft:deep_frozen_ocean"
-        }
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "minecraft:deep_frozen_ocean"
+            }
+          }
+        ]
       }
     },
     "cold_ocean": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "biome": "minecraft:cold_ocean"
-        }
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "minecraft:cold_ocean"
+            }
+          }
+        ]
       }
     },
     "deep_cold_ocean": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "biome": "minecraft:deep_cold_ocean"
-        }
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "minecraft:deep_cold_ocean"
+            }
+          }
+        ]
       }
     },
     "ocean": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "biome": "minecraft:ocean"
-        }
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "minecraft:ocean"
+            }
+          }
+        ]
       }
     },
     "deep_ocean": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "biome": "minecraft:deep_ocean"
-        }
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "minecraft:deep_ocean"
+            }
+          }
+        ]
       }
     },
     "lukewarm_ocean": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "biome": "minecraft:lukewarm_ocean"
-        }
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "minecraft:lukewarm_ocean"
+            }
+          }
+        ]
       }
     },
     "deep_lukewarm_ocean": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "biome": "minecraft:deep_lukewarm_ocean"
-        }
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "minecraft:deep_lukewarm_ocean"
+            }
+          }
+        ]
       }
     },
     "warm_ocean": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "biome": "minecraft:warm_ocean"
-        }
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "minecraft:warm_ocean"
+            }
+          }
+        ]
       }
     }
   },
