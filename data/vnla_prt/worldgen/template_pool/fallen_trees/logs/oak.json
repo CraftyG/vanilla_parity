@@ -10,6 +10,13 @@
         "location": "vnla_prt:fallen_tree/oak/oak_logs",
         "processors": "minecraft:empty"
       }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:empty_pool_element"
+      }
     }
   ]
 }
