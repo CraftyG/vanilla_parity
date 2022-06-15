@@ -1,0 +1,15 @@
+{
+  "name": "vnla_prt:igloo/villager",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "vnla_prt:igloo/villager",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

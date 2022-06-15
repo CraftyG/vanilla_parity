@@ -1,0 +1,24 @@
+{
+  "name": "vnla_prt:igloo/starts",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "vnla_prt:igloo/top_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "vnla_prt:igloo/top_2",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
