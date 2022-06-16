@@ -1,5 +1,5 @@
 {
-  "name": "vnla_prt:fallen_trees/logs/oak",
+  "name": "vnla_prt:igloo/zombie_villager",
   "fallback": "minecraft:empty",
   "elements": [
     {
@@ -7,15 +7,8 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "vnla_prt:fallen_tree/oak/oak_logs",
+        "location": "vnla_prt:igloo/zombie_villager",
         "processors": "minecraft:empty"
-      }
-    },
-    {
-      "weight": 1,
-      "element": {
-        "projection": "rigid",
-        "element_type": "minecraft:empty_pool_element"
       }
     }
   ]

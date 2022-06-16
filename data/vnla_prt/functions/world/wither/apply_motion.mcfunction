@@ -3,7 +3,7 @@ execute store result score @s vp.motionX1 run data get entity @s Pos[0] 1000
 execute store result score @s vp.motionZ1 run data get entity @s Pos[2] 1000
 # teleport wither a small bit toward any entities that's not in the `not hostiles` predicate
 # (will not target to undead mobs, ghasts, invulnerable players, or any entitiy that is not considered a 'mob')
-tp @s ^ ^ ^0.1 facing entity @e[limit=1,predicate=!vnla_prt:entity/wither_not_hostiles]
+tp @s ^ ^ ^0.05 facing entity @e[limit=1,predicate=!vnla_prt:entity/wither_not_hostiles]
 # apply new position to 2nd motion score
 execute store result score @s vp.motionX2 run data get entity @s Pos[0] 1000
 execute store result score @s vp.motionZ2 run data get entity @s Pos[2] 1000

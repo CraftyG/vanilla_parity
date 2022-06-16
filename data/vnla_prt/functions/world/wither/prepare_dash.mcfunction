@@ -1,4 +1,4 @@
 # set dash duration
-scoreboard players set @s vp.witherDash 9
-# run `apply motion` function
-execute as @s[nbt=!{NoAI:1b},tag=!vp.motionAdded] at @s run function vnla_prt:world/wither/apply_motion
+scoreboard players set @s vp.witherDash 65
+# schedule a function that applies motion to delay the attack for the indicator
+schedule function vnla_prt:world/wither/delay 2.9s

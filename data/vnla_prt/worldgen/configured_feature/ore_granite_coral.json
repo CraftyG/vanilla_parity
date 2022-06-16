@@ -7,7 +7,7 @@
         {
           "target": {
             "predicate_type": "minecraft:tag_match",
-            "tag": "vnla_prt:coral_blocks"
+            "tag": "minecraft:coral_blocks"
           },
           "state": {
             "Name": "minecraft:granite"

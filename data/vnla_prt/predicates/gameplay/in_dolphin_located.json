@@ -4,25 +4,25 @@
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "feature": "minecraft:shipwreck"
+        "structure": "minecraft:shipwreck"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "feature": "minecraft:shipwreck_beached"
+        "structure": "minecraft:shipwreck_beached"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "feature": "minecraft:ocean_ruin_cold"
+        "structure": "minecraft:ocean_ruin_cold"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "feature": "minecraft:ocean_ruin_warm"
+        "structure": "minecraft:ocean_ruin_warm"
       }
     }
   ]
