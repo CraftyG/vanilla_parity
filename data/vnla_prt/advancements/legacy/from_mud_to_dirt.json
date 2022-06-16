@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mud"
+    },
+    "title": "From Dirt to Mud",
+    "description": "Pour some water on dirt with a bottle to create mud"
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "dirt_to_mud": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "potion": "minecraft:water"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:mud"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
