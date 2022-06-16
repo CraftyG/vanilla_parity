@@ -91,6 +91,12 @@
         "maxCount": 4
       },
       {
+        "type": "minecraft:llama",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
         "type": "minecraft:horse",
         "weight": 1,
         "minCount": 2,
