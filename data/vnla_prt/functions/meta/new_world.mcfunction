@@ -1,10 +1,8 @@
 tellraw @p {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
-tellraw @p [{"text":"Thank you for installing the "},{"text":"Vanilla ","bold":true},{"text":"Parity ","color":"blue","bold":true},{"text":"data pack!"}]
-tellraw @p {"text":" "}
-tellraw @p [{"text": "This data pack resolves some parity issues between Java and Bedrock editions of Minecraft. For more information about these features, you can check the list ", "extra":[{"text":"here.","underlined": true,"color":"#5396F5","clickEvent": {"action": "open_url","value": "https://github.com/CraftyG/vanilla_parity/wiki"}}]}]
-tellraw @p {"text":" "}
-tellraw @p [{"text": "Made by: "},{"text": "CraftyGamer_","color": "blue"}]
+tellraw @p [{"text":"Data pack \""},{"text":"Vanilla ","bold":true},{"text":"Parity","color":"blue","bold":true},{"text":"\" has been installed."}]
+tellraw @p {"text":"About","color":"#62C7FF","hoverEvent":{"action":"show_text","contents":[{"text":"Vanilla Parity is a data pack aims to resolve parity issues between Java and Bedrock Edition, as they both have many features that behave differently from one another."},{"text": "\n\nMade by: "},{"text": "CraftyGamer_","color": "blue"}]}}
+tellraw @p {"text":"Report Bugs","color":"#FA5C5C","clickEvent":{"action":"open_url","value":"https://github.com/CraftyG/vanilla_parity/issues/new"}}
+tellraw @p {"text": "Ver. 2.1.0","color": "gray"}
 tellraw @p {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
-tellraw @p {"text": "Ver. 2.1.0 Pre-release 1","color": "gray"}
 
 function vnla_prt:meta/one_second_timer
