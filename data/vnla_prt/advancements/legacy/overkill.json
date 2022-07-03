@@ -17,6 +17,13 @@
         "damage": {
           "dealt": {
             "min": 18
+          },
+          "type": {
+            "is_explosion": false,
+            "is_fire": false,
+            "is_magic": false,
+            "is_projectile": false,
+            "is_lightning": false
           }
         }
       }
