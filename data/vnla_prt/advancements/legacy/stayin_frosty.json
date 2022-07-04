@@ -16,17 +16,17 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
+              "location": {
+                "fluid": {
+                  "tag": "minecraft:lava"
+                }
+              },
               "effects": {
                 "minecraft:fire_resistance": {}
               }
             }
           }
-        ],
-        "location": {
-          "fluid": {
-            "tag": "minecraft:lava"
-          }
-        }
+        ]
       }
     }
   }
