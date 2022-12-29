@@ -34,6 +34,8 @@ function vnla_prt:interactions/jukebox/loop
 execute as @e[predicate=vnla_prt:entity/zombie_child] at @s run function vnla_prt:world/jockeys/test_for_jockey
 # lighing up campfires
 execute as @e[predicate=vnla_prt:condition/on_campfire_while_on_fire] at @s run function vnla_prt:interactions/light_campfire
+# lighting up candles
+execute as @e[predicate=vnla_prt:condition/on_candle_while_on_fire] at @s run function vnla_prt:interactions/light_candles
 
 # loop function for 1 second
 schedule function vnla_prt:meta/one_second_timer 1s
