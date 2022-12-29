@@ -1,6 +1,6 @@
 {
   "name": "vnla_prt:coral_cluster/starts",
-  "fallback": "vnla_prt:coral_above_sea_level",
+  "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 7,
