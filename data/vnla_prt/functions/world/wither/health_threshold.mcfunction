@@ -5,9 +5,9 @@ summon creeper ~ ~ ~ {Silent:1b,ExplosionRadius:7b,Fuse:0,CustomName:'{"translat
 # add threshold tag
 tag @s add vp.witherHealthThreshold
 # summon reinforcements
-summon wither_skeleton ~ ~ ~ {HandItems:[{id:"minecraft:stone_sword",Count:1b},{}],ActiveEffects:[{Id:11b,Amplifier:5b,Duration:35,ShowParticles:0b}]}
-summon wither_skeleton ~ ~ ~ {HandItems:[{id:"minecraft:stone_sword",Count:1b},{}],ActiveEffects:[{Id:11b,Amplifier:5b,Duration:35,ShowParticles:0b}]}
-summon wither_skeleton ~ ~ ~ {HandItems:[{id:"minecraft:stone_sword",Count:1b},{}],ActiveEffects:[{Id:11b,Amplifier:5b,Duration:35,ShowParticles:0b}]}
-summon wither_skeleton ~ ~ ~ {HandItems:[{id:"minecraft:stone_sword",Count:1b},{}],ActiveEffects:[{Id:11b,Amplifier:5b,Duration:35,ShowParticles:0b}]}
+summon wither_skeleton ~ ~ ~ {HandItems:[{id:"minecraft:stone_sword",Count:1b},{}],ActiveEffects:[{Id:11,Amplifier:5b,Duration:35,ShowParticles:0b}]}
+summon wither_skeleton ~ ~ ~ {HandItems:[{id:"minecraft:stone_sword",Count:1b},{}],ActiveEffects:[{Id:11,Amplifier:5b,Duration:35,ShowParticles:0b}]}
+summon wither_skeleton ~ ~ ~ {HandItems:[{id:"minecraft:stone_sword",Count:1b},{}],ActiveEffects:[{Id:11,Amplifier:5b,Duration:35,ShowParticles:0b}]}
+summon wither_skeleton ~ ~ ~ {HandItems:[{id:"minecraft:stone_sword",Count:1b},{}],ActiveEffects:[{Id:11,Amplifier:5b,Duration:35,ShowParticles:0b}]}
 # revoke the invulnerability from wither
 execute as @e[tag=vp.witherHealthThreshold] at @s run schedule function vnla_prt:world/wither/revoke_invulnerability 2t

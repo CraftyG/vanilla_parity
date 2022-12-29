@@ -10,7 +10,7 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:tag_match",
-            "tag": "vnla_prt:coral_blocks"
+            "tag": "minecraft:coral_blocks"
           },
           "output_state": {
             "Name": "minecraft:air"

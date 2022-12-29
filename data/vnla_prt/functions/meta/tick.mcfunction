@@ -18,3 +18,5 @@ execute as @a if score @s vp.ateCake matches 1.. run function vnla_prt:interacti
 function vnla_prt:interactions/ender_pearl/main
 # converted drowned
 function vnla_prt:world/drowned/converted_drowned
+# report link trigger
+function vnla_prt:meta/report_link
