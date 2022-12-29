@@ -59,3 +59,5 @@ scoreboard players set #vp.-1 vp.visFix -1
 scoreboard players set #vp.global vp.visFix 1
 # uuid counter
 scoreboard objectives add vp.uuid dummy
+# report link
+scoreboard objectives add vp.reportLink trigger
