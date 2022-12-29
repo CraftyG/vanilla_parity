@@ -91,6 +91,10 @@
           "type": "minecraft:item",
           "weight": 20,
           "name": "minecraft:chainmail_boots"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 60
         }
       ]
     },
