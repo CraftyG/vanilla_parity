@@ -61,3 +61,5 @@ scoreboard players set #vp.global vp.visFix 1
 scoreboard objectives add vp.uuid dummy
 # report link
 scoreboard objectives add vp.reportLink trigger
+# game difficulty
+scoreboard objectives add vp.diff dummy

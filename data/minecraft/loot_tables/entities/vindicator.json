@@ -40,11 +40,24 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vnla_prt:entities/raider_drops",
-          "conditions": [
+          "name": "vnla_prt:entities/raider_drops"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:reference",
+          "name": "vnla_prt:entity/illager_raider"
+        },
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
             {
               "condition": "minecraft:reference",
-              "name": "vnla_prt:entity/illager_raider"
+              "name": "vnla_prt:gameplay/raid_chance_diff_1-2"
+            },
+            {
+              "condition": "minecraft:reference",
+              "name": "vnla_prt:gameplay/raid_chance_diff_3"
             }
           ]
         }

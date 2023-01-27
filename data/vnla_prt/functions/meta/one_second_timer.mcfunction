@@ -36,6 +36,8 @@ execute as @e[predicate=vnla_prt:entity/zombie_child] at @s run function vnla_pr
 execute as @e[predicate=vnla_prt:condition/on_campfire_while_on_fire] at @s run function vnla_prt:interactions/light_campfire
 # lighting up candles
 execute as @e[predicate=vnla_prt:condition/on_candle_while_on_fire] at @s run function vnla_prt:interactions/light_candles
+# get the game difficulty value (for raider drops)
+execute store result score @e[type=#minecraft:raiders] vp.diff if predicate vnla_prt:entity/illager_raider run difficulty
 
 # loop function for 1 second
 schedule function vnla_prt:meta/one_second_timer 1s

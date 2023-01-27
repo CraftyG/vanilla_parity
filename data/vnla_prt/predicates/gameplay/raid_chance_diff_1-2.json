@@ -1,0 +1,16 @@
+[
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "vp.diff": {
+        "min": 1,
+        "max": 2
+      }
+    }
+  },
+  {
+    "condition": "minecraft:random_chance",
+    "chance": 0.65
+  }
+]

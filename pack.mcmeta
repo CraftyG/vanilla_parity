@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 10,
+		"pack_format": 11,
 		"description": [
 		{"text":"Vanila Parity ","color":"#E1DCD7"},
 		{"text":"Ver.2.2.0"},
