@@ -15,4 +15,4 @@ tag @e[type=item,tag=!vp.finalIgnore,tag=!vp.ignoreItem,tag=!vp.ignoreHead] add 
 execute as @e[type=item,tag=vp.fromChargedCreeper] at @s run kill @e[type=item,tag=vp.ignoreHead,distance=..2]
 # this is supposed to be so that they don't get checked anymore. Not really sure if it actually works :skull:
 # if you are reading this, I am open to a more efficient methods
-execute as @e[type=item,tag=!vp.finalIgnore] run tag @s add vp.finalIgnore
+execute as @e[type=item,tag=vp.fromChargedCreeper] run data remove entity @s Item.tag
