@@ -6,7 +6,7 @@
     "title": "Free Diver",
     "description": "Stay underwater for 2 minutes"
   },
-  "parent": "minecraft:nether/brew_potion",
+  "parent": "vnla_prt:bedrock/me_gold",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:location",
