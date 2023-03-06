@@ -9,6 +9,6 @@ execute if score @s vp.witherDash matches 1..7 run summon creeper ~ ~1.5 ~ {Sile
 particle minecraft:dust_color_transition 0.2 0.16 0.15 1.5 1 1 1 ~ ~1.5 ~ 0.5 0.5 0.5 1 14
 
 # revoke invulnerability once the attack ends
-execute as @e[tag=vp.witherHealthThreshold] at @s if score @s vp.witherDash matches 0 run schedule function vnla_prt:world/wither/revoke_invulnerability 2t
+execute as @e[tag=vp.witherHealthThreshold] if score @s vp.witherDash matches 0 run schedule function vnla_prt:world/wither/revoke_invulnerability 2t
 # remove tag
-execute as @e[tag=vp.witherHealthThreshold] at @s if score @s vp.witherDash matches 0 run tag @s remove vp.motionAdded
+execute as @e[tag=vp.witherHealthThreshold] if score @s vp.witherDash matches 0 run tag @s remove vp.motionAdded
