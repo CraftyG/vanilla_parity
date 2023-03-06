@@ -28,8 +28,6 @@ scoreboard players set @a[predicate=!vnla_prt:gameplay/under_water] vp.inWater 0
 #> Other Parity Features
 # villager nitwits
 function vnla_prt:world/villager_nitwits
-# jukebox notes
-function vnla_prt:interactions/jukebox/loop
 # zombie jockeys
 execute as @e[predicate=vnla_prt:entity/zombie_child] at @s run function vnla_prt:world/jockeys/test_for_jockey
 # lighing up campfires
