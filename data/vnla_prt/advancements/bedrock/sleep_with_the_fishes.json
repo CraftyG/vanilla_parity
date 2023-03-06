@@ -8,7 +8,7 @@
     "frame": "challenge",
     "hidden": true
   },
-  "parent": "vnla_prt:legacy/free_diver",
+  "parent": "vnla_prt:bedrock/moskstraumen",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:location",
