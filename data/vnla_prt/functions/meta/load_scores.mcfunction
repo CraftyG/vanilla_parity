@@ -65,4 +65,4 @@ scoreboard objectives add vp.reportLink trigger
 scoreboard objectives add vp.diff dummy
 
 #> Stacking snow layers
-gamerule snowAccumulationHeight 8
+gamerule snowAccumulationHeight 7
