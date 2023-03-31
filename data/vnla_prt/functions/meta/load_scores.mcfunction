@@ -63,3 +63,6 @@ scoreboard objectives add vp.uuid dummy
 scoreboard objectives add vp.reportLink trigger
 # game difficulty
 scoreboard objectives add vp.diff dummy
+
+#> Stacking snow layers
+gamerule snowAccumulationHeight 8

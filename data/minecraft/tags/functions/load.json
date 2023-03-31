@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "vnla_prt:meta/load_scores",
-    "snowier_snow:start"
+    "vnla_prt:meta/load_scores"
   ]
 }
