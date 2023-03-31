@@ -1,6 +1,6 @@
 # Vanilla Parity Repository
 
-[![Version - 2.3.1(https://img.shields.io/badge/Ver.-2.3.1-%231BD96A)](https://github.com/CraftyG/vanilla_parity/wiki)
+[![Version - 2.3.1](https://img.shields.io/badge/Ver.-2.3.1-%231BD96A)](https://github.com/CraftyG/vanilla_parity/wiki)
 
 This repository solely contains experimental versions of the Vanilla Parity data pack. They are a bit less stable than full releases, so expect things to not work as intended. The Revoked version will not have any experimental versions and will only update once the original is updated first. For the original version of the pack, see [Vanilla Parity [1.19]](https://www.planetminecraft.com/data-pack/vanilla-parity/).
 
