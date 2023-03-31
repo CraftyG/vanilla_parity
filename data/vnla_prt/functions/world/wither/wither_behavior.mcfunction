@@ -1,9 +1,9 @@
 
 #> This function is called by a tick function
 
-tag @e[type=wither,nbt=!{NoAI:1b}] add vp.NoAI
+tag @e[type=wither,nbt={NoAI:1b}] add vp.NoAI
 
-# once the wither is almomst ready, set the health to 600
+# once the wither is almost ready, set the health to 600
 execute if entity @s[predicate=vnla_prt:entity/wither_almost_ready] run attribute @s generic.max_health base set 600
 execute if entity @s[predicate=vnla_prt:entity/wither_almost_ready] run data modify entity @s Health set value 600
 execute if entity @s[predicate=vnla_prt:entity/wither_almost_ready] run tag @s add vp.witherSpawned
