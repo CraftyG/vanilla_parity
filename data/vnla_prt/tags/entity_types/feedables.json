@@ -3,6 +3,7 @@
   "values": [
     "minecraft:axolotl",
     "minecraft:bee",
+    "minecraft:camel",
     "minecraft:cat",
     "minecraft:chicken",
     "minecraft:cow",
@@ -22,6 +23,7 @@
     "minecraft:pig",
     "minecraft:rabbit",
     "minecraft:sheep",
+    "minecraft:sniffer",
     "minecraft:strider",
     "minecraft:tadpole",
     "minecraft:trader_llama",
