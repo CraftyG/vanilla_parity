@@ -100,5 +100,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/zombie"
 }

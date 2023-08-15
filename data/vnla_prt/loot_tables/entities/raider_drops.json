@@ -326,5 +326,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "vnla_prt:entities/raider_drops"
 }

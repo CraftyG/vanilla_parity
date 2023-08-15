@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:piglin_head",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{fromCharged:1b}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "type": "minecraft:creeper",
+            "nbt": "{powered:1b}"
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/piglin"
+}

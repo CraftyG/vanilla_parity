@@ -44,5 +44,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/pufferfish"
 }

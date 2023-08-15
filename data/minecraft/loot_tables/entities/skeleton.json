@@ -85,5 +85,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/skeleton"
 }
