@@ -11,10 +11,15 @@
     "four_pickles": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "minecraft:sea_pickle",
-        "state": {
-          "pickles": "4"
-        }
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:sea_pickle",
+            "properties": {
+              "pickles": "4"
+            }
+          }
+        ]
       }
     }
   }

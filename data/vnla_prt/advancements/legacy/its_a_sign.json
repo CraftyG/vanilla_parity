@@ -11,13 +11,25 @@
     "oak_sign": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "minecraft:oak_sign"
+        "location": [
+          {
+            "condition": "block_state_property",
+            "block": "minecraft:oak_sign",
+            "properties": {}
+          }
+        ]
       }
     },
     "oak_wall_sign": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "minecraft:oak_wall_sign"
+        "location": [
+          {
+            "condition": "block_state_property",
+            "block": "minecraft:oak_wall_sign",
+            "properties": {}
+          }
+        ]
       }
     }
   },

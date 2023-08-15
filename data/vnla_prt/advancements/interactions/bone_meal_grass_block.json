@@ -3,18 +3,21 @@
     "bone_meal_grass_block": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "item": {
-          "items": [
-            "minecraft:bone_meal"
-          ]
-        },
-        "location": {
-          "block": {
-            "blocks": [
-              "minecraft:grass_block"
-            ]
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:bone_meal"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:grass_block",
+            "properties": {}
           }
-        }
+        ]
       }
     }
   },

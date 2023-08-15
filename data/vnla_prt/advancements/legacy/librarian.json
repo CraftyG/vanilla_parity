@@ -11,20 +11,17 @@
     "place_bookshelf": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "player": [
+        "location": [
           {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "player": {
-                "advancements": {
-                  "vnla_prt:gameplay/enchanting_table": true
-                }
-              }
-            }
+            "condition": "block_state_property",
+            "block": "minecraft:bookshelf",
+            "properties": {}
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "vnla_prt:gameplay/near_enchanting_table"
           }
-        ],
-        "block": "minecraft:bookshelf"
+        ]
       }
     }
   }

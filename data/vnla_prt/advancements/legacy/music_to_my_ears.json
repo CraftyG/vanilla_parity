@@ -11,16 +11,19 @@
     "play_jukebox": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "item": {
-          "tag": "minecraft:music_discs"
-        },
-        "location": {
-          "block": {
-            "blocks": [
-              "minecraft:jukebox"
-            ]
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "minecraft:music_discs"
+            }
+          },
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:jukebox",
+            "properties": {}
           }
-        }
+        ]
       }
     }
   }
