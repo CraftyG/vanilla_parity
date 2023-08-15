@@ -1,0 +1,1 @@
+execute if entity @p[advancements={vnla_prt:interactions/feeding/sniffer=true}] run particle minecraft:item minecraft:torchflower_seeds ~ ~0.5 ~ 0.2 0.2 0.2 0.1 7
