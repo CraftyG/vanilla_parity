@@ -40,5 +40,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:blocks/respawn_anchor"
 }

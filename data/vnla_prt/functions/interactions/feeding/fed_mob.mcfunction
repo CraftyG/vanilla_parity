@@ -4,6 +4,7 @@ scoreboard players set #vp.rayHit vp.raycast 1
 # set the function according to the mob
 execute if entity @s[type=axolotl] run function vnla_prt:interactions/feeding/mobs/axolotl
 execute if entity @s[type=bee] run function vnla_prt:interactions/feeding/mobs/bee
+execute if entity @s[type=camel] run function vnla_prt:interactions/feeding/mobs/camel
 execute if entity @s[type=cat] run function vnla_prt:interactions/feeding/mobs/cat
 execute if entity @s[type=chicken] run function vnla_prt:interactions/feeding/mobs/chicken
 execute if entity @s[type=cow] run function vnla_prt:interactions/feeding/mobs/cow
@@ -23,6 +24,7 @@ execute if entity @s[type=parrot,tag=!vp.isTamed] run function vnla_prt:interact
 execute if entity @s[type=pig] run function vnla_prt:interactions/feeding/mobs/pig
 execute if entity @s[type=rabbit] run function vnla_prt:interactions/feeding/mobs/rabbit
 execute if entity @s[type=sheep] run function vnla_prt:interactions/feeding/mobs/sheep
+execute if entity @s[type=sniffer] run function vnla_prt:interactions/feeding/mobs/sniffer
 execute if entity @s[type=strider] run function vnla_prt:interactions/feeding/mobs/strider
 execute if entity @s[type=tadpole] run function vnla_prt:interactions/feeding/mobs/tadpole
 execute if entity @s[type=trader_llama] run function vnla_prt:interactions/feeding/mobs/trader_llama

@@ -11,7 +11,13 @@
     "requirement": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "minecraft:flower_pot"
+        "location": [
+          {
+            "condition": "block_state_property",
+            "block": "minecraft:flower_pot",
+            "properties": {}
+          }
+        ]
       }
     }
   }

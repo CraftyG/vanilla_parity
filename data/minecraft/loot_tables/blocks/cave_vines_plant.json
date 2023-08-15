@@ -48,5 +48,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:blocks/cave_vines_plant"
 }

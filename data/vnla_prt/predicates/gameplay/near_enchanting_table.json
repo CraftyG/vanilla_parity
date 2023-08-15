@@ -1,0 +1,397 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 2,
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 2,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 1,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 2,
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 2,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 1,
+      "offsetZ":-2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 2,
+      "offsetY": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "offsetY": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 2,
+      "offsetY": -1,
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 2,
+      "offsetY": -1,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 1,
+      "offsetY": -1,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "offsetY": -1,
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "offsetY": -1,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "offsetY": -1,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "offsetY": -1,
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "offsetY": -1,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "offsetY": -1,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 2,
+      "offsetY": -1,
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 2,
+      "offsetY": -1,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 1,
+      "offsetY": -1,
+      "offsetZ":-2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:enchanting_table"
+          ]
+        }
+      }
+    }
+  ]
+}

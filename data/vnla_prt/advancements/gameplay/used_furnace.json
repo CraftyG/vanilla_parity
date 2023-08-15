@@ -3,15 +3,20 @@
     "furnace": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": {
-          "block": {
-            "blocks": [
-              "minecraft:furnace",
-              "minecraft:blast_furnace",
-              "minecraft:smoker"
-            ]
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:furnace",
+                  "minecraft:smoker",
+                  "minecraft:blast_furnace"
+                ]
+              }
+            }
           }
-        }
+        ]
       }
     }
   },

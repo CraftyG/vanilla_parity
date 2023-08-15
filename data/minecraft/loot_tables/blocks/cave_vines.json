@@ -38,15 +38,16 @@
       },
       {
         "condition": "minecraft:match_tool",
-        "predicate": {
-          "enchantments": [
-            {
-              "enchantment": "minecraft:silk_touch"
-            }
-          ]
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch"
+              }
+            ]
+          }
         }
-      }
-    ]
-  }
-]
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/cave_vines"
 }

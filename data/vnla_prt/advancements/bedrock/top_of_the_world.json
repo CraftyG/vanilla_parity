@@ -11,12 +11,21 @@
     "requirement": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "minecraft:scaffolding",
-        "location": {
-          "position": {
-            "y": 319
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:scaffolding",
+            "properties": {}
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "y": 319
+              }
+            }
           }
-        }
+        ]
       }
     }
   }

@@ -293,5 +293,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:chests/buried_treasure"
 }
