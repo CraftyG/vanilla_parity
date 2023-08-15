@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "vnla_prt:meta/tick",
-    "snowier_snow:loop"
+    "vnla_prt:meta/tick"
   ]
 }
