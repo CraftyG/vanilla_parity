@@ -35,5 +35,6 @@
         "bonusMultiplier": 2
       }
     }
-  ]
+  ],
+  "random_sequence": "minecraft:blocks/peony"
 }
